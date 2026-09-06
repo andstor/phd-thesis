@@ -1,0 +1,3110 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for André Storhaug at 2021-11-15 05:09:47 +0100 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+@misc{vaswani2017attention,
+  doi       = {10.48550/ARXIV.1706.03762},
+  url       = {https://arxiv.org/abs/1706.03762},
+  author    = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, Lukasz and Polosukhin, Illia},
+  keywords  = {Computation and Language (cs.CL), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Attention Is All You Need},
+  publisher = {arXiv},
+  year      = {2017},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@inproceedings{kneser1995improved,
+  author    = {Kneser, R. and Ney, H.},
+  booktitle = {1995 International Conference on Acoustics, Speech, and Signal Processing},
+  title     = {Improved backing-off for M-gram language modeling},
+  year      = {1995},
+  volume    = {1},
+  number    = {},
+  pages     = {181-184 vol.1},
+  doi       = {10.1109/ICASSP.1995.479394}
+}
+
+
+@article{shannon1948ngram,
+  author  = {Shannon, C. E.},
+  journal = {The Bell System Technical Journal},
+  title   = {A mathematical theory of communication},
+  year    = {1948},
+  volume  = {27},
+  number  = {3},
+  pages   = {379-423},
+  doi     = {10.1002/j.1538-7305.1948.tb01338.x}
+}
+
+@article{Bengio2003,
+  author     = {Bengio, Yoshua and Ducharme, R\'{e}jean and Vincent, Pascal and Janvin, Christian},
+  title      = {A Neural Probabilistic Language Model},
+  year       = {2003},
+  issue_date = {3/1/2003},
+  publisher  = {JMLR.org},
+  volume     = {3},
+  number     = {null},
+  issn       = {1532-4435},
+  abstract   = {A goal of statistical language modeling is to learn the joint probability function of sequences of words in a language. This is intrinsically difficult because of the curse of dimensionality: a word sequence on which the model will be tested is likely to be different from all the word sequences seen during training. Traditional but very successful approaches based on n-grams obtain generalization by concatenating very short overlapping sequences seen in the training set. We propose to fight the curse of dimensionality by learning a distributed representation for words which allows each training sentence to inform the model about an exponential number of semantically neighboring sentences. The model learns simultaneously (1) a distributed representation for each word along with (2) the probability function for word sequences, expressed in terms of these representations. Generalization is obtained because a sequence of words that has never been seen before gets high probability if it is made of words that are similar (in the sense of having a nearby representation) to words forming an already seen sentence. Training such large models (with millions of parameters) within a reasonable time is itself a significant challenge. We report on experiments using neural networks for the probability function, showing on two text corpora that the proposed approach significantly improves on state-of-the-art n-gram models, and that the proposed approach allows to take advantage of longer contexts.},
+  journal    = {J. Mach. Learn. Res.},
+  month      = {mar},
+  pages      = {1137-1155},
+  numpages   = {19}
+}
+
+
+
+@inproceedings{allamanis2015bimodal,
+  abstract   = {We consider the problem of building probabilistic models that jointly model short natural language utterances and source code snippets. The aim is to bring together recent work on statistical modelling of source code and work on bimodal models of images and natural language. The resulting models are useful for a variety of tasks that involve natural language and source code. We demonstrate their performance on two retrieval tasks: retrieving source code snippets given a natural language query, and retrieving natural language descriptions given a source code query (i.e., source code captioning). The experiments show there to be promise in this direction, and that modelling the structure of source code is helpful towards the retrieval tasks.},
+  author     = {Allamanis, Miltos and Tarlow, Daniel and Gordon, Andy and Wei, Yi},
+  booktitle  = {International Conference on Machine Learning},
+  month      = {August},
+  pages      = {2123-3132},
+  title      = {Bimodal Modelling of Source Code and Natural Language},
+  url        = {https://www.microsoft.com/en-us/research/publication/bimodal-modelling-of-source-code-and-natural-language/},
+  year       = {2015},
+  bdsk-url-1 = {https://www.microsoft.com/en-us/research/publication/bimodal-modelling-of-source-code-and-natural-language/}
+}
+
+
+
+
+@misc{alon2018code2vec,
+  doi       = {10.48550/ARXIV.1803.09473},
+  url       = {https://arxiv.org/abs/1803.09473},
+  author    = {Alon, Uri and Zilberstein, Meital and Levy, Omer and Yahav, Eran},
+  keywords  = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), Programming Languages (cs.PL), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {code2vec: Learning Distributed Representations of Code},
+  publisher = {arXiv},
+  year      = {2018},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@inproceedings{hindle2012natural,
+  author    = {Hindle, Abram and Barr, Earl T. and Su, Zhendong and Gabel, Mark and Devanbu, Premkumar},
+  title     = {On the Naturalness of Software},
+  year      = {2012},
+  isbn      = {9781467310673},
+  publisher = {IEEE Press},
+  abstract  = {Natural languages like English are rich, complex, and powerful. The highly creative and graceful use of languages like English and Tamil, by masters like Shakespeare and Avvaiyar, can certainly delight and inspire. But in practice, given cognitive constraints and the exigencies of daily life, most human utterances are far simpler and much more repetitive and predictable. In fact, these utterances can be very usefully modeled using modern statistical methods. This fact has led to the phenomenal success of statistical approaches to speech recognition, natural language translation, question-answering, and text mining and comprehension. We begin with the conjecture that most software is also natural, in the sense that it is created by humans at work, with all the attendant constraints and limitations---and thus, like natural language, it is also likely to be repetitive and predictable. We then proceed to ask whether a) code can be usefully modeled by statistical language models and b) such models can be leveraged to support software engineers. Using the widely adopted n-gram model, we provide empirical evidence supportive of a positive answer to both these questions. We show that code is also very repetitive, and in fact even more so than natural languages. As an example use of the model, we have developed a simple code completion engine for Java that, despite its simplicity, already improves Eclipse's completion capability. We conclude the paper by laying out a vision for future research in this area.},
+  booktitle = {Proceedings of the 34th International Conference on Software Engineering},
+  pages     = {837-847},
+  numpages  = {11},
+  location  = {Zurich, Switzerland},
+  series    = {ICSE '12}
+}
+
+
+@inproceedings{balog2017deepcoder,
+  abstract   = {We develop a first line of attack for solving programming competition-style problems from input-output examples using deep learning. The approach is to train a neural network to predict properties of the program that generated the outputs from the inputs. We use the neural network's predictions to augment search techniques from the programming languages community, including enumerative search and an SMT-based solver. Empirically, we show that our approach leads to an order of magnitude speedup over the strong non-augmented baselines and a Recurrent Neural Network approach, and that we are able to solve problems of difficulty comparable to the simplest problems on programming competition websites.
+                
+                Get the code on GitHub >},
+  author     = {Balog, Matej and Gaunt, Alexander and Brockschmidt, Marc and Nowozin, Sebastian and Tarlow, Daniel},
+  booktitle  = {Proceedings of ICLR'17},
+  month      = {March},
+  title      = {DeepCoder: Learning to Write Programs},
+  url        = {https://www.microsoft.com/en-us/research/publication/deepcoder-learning-write-programs/},
+  year       = {2017},
+  bdsk-url-1 = {https://www.microsoft.com/en-us/research/publication/deepcoder-learning-write-programs/}
+}
+
+@article{alon2018code2seq,
+  author     = {Uri Alon and
+                Omer Levy and
+                Eran Yahav},
+  title      = {code2seq: Generating Sequences from Structured Representations of
+                Code},
+  journal    = {CoRR},
+  volume     = {abs/1808.01400},
+  year       = {2018},
+  url        = {http://arxiv.org/abs/1808.01400},
+  eprinttype = {arXiv},
+  eprint     = {1808.01400},
+  timestamp  = {Sun, 02 Sep 2018 15:01:56 +0200},
+  biburl     = {https://dblp.org/rec/journals/corr/abs-1808-01400.bib},
+  bibsource  = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{svyatkovskiy2019pyhia,
+  doi       = {10.1145/3292500.3330699},
+  url       = {https://doi.org/10.1145%2F3292500.3330699},
+  year      = {2019},
+  month     = {jul},
+  publisher = {{ACM}},
+  author    = {Alexey Svyatkovskiy and Ying Zhao and Shengyu Fu and Neel Sundaresan},
+  title     = {Pythia: {AI}-assisted Code Completion System},
+  booktitle = {Proceedings of the 25th {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data Mining}
+}
+
+@misc{svyatkovskiy2020intellicode,
+  doi       = {10.48550/ARXIV.2005.08025},
+  url       = {https://arxiv.org/abs/2005.08025},
+  author    = {Svyatkovskiy, Alexey and Deng, Shao Kun and Fu, Shengyu and Sundaresan, Neel},
+  keywords  = {Computation and Language (cs.CL), Software Engineering (cs.SE), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {IntelliCode Compose: Code Generation Using Transformer},
+  publisher = {arXiv},
+  year      = {2020},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@misc{feng2020codebert,
+  doi       = {10.48550/ARXIV.2002.08155},
+  url       = {https://arxiv.org/abs/2002.08155},
+  author    = {Feng, Zhangyin and Guo, Daya and Tang, Duyu and Duan, Nan and Feng, Xiaocheng and Gong, Ming and Shou, Linjun and Qin, Bing and Liu, Ting and Jiang, Daxin and Zhou, Ming},
+  keywords  = {Computation and Language (cs.CL), Programming Languages (cs.PL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {CodeBERT: A Pre-Trained Model for Programming and Natural Languages},
+  publisher = {arXiv},
+  year      = {2020},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@inproceedings{papineni2002bleu,
+  author    = {Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing},
+  title     = {BLEU: A Method for Automatic Evaluation of Machine Translation},
+  year      = {2002},
+  publisher = {Association for Computational Linguistics},
+  address   = {USA},
+  url       = {https://doi.org/10.3115/1073083.1073135},
+  doi       = {10.3115/1073083.1073135},
+  abstract  = {Human evaluations of machine translation are extensive but expensive. Human evaluations can take months to finish and involve human labor that can not be reused. We propose a method of automatic machine translation evaluation that is quick, inexpensive, and language-independent, that correlates highly with human evaluation, and that has little marginal cost per run. We present this method as an automated understudy to skilled human judges which substitutes for them when there is need for quick or frequent evaluations.},
+  booktitle = {Proceedings of the 40th Annual Meeting on Association for Computational Linguistics},
+  pages     = {311-318},
+  numpages  = {8},
+  location  = {Philadelphia, Pennsylvania},
+  series    = {ACL '02}
+}
+
+
+@article{colin2020pymt5,
+  author     = {Colin B. Clement and
+                Dawn Drain and
+                Jonathan Timcheck and
+                Alexey Svyatkovskiy and
+                Neel Sundaresan},
+  title      = {PyMT5: multi-mode translation of natural language and Python code
+                with transformers},
+  journal    = {CoRR},
+  volume     = {abs/2010.03150},
+  year       = {2020},
+  url        = {https://arxiv.org/abs/2010.03150},
+  eprinttype = {arXiv},
+  eprint     = {2010.03150},
+  timestamp  = {Tue, 13 Oct 2020 15:25:23 +0200},
+  biburl     = {https://dblp.org/rec/journals/corr/abs-2010-03150.bib},
+  bibsource  = {dblp computer science bibliography, https://dblp.org}
+}
+
+
+
+@misc{lu2021codexglue,
+  doi       = {10.48550/ARXIV.2102.04664},
+  url       = {https://arxiv.org/abs/2102.04664},
+  author    = {Lu, Shuai and Guo, Daya and Ren, Shuo and Huang, Junjie and Svyatkovskiy, Alexey and Blanco, Ambrosio and Clement, Colin and Drain, Dawn and Jiang, Daxin and Tang, Duyu and Li, Ge and Zhou, Lidong and Shou, Linjun and Zhou, Long and Tufano, Michele and Gong, Ming and Zhou, Ming and Duan, Nan and Sundaresan, Neel and Deng, Shao Kun and Fu, Shengyu and Liu, Shujie},
+  keywords  = {Software Engineering (cs.SE), Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation},
+  publisher = {arXiv},
+  year      = {2021},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@misc{li2021detecting,
+  doi       = {10.48550/ARXIV.2110.15733},
+  url       = {https://arxiv.org/abs/2110.15733},
+  author    = {Li, Bingbing and Peng, Hongwu and Sainju, Rajat and Yang, Junhuan and Yang, Lei and Liang, Yueying and Jiang, Weiwen and Wang, Binghui and Liu, Hang and Ding, Caiwen},
+  keywords  = {Computation and Language (cs.CL), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences, I.2; I.7; H.0},
+  title     = {Detecting Gender Bias in Transformer-based Models: A Case Study on BERT},
+  publisher = {arXiv},
+  year      = {2021},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@misc{mitigating2021,
+  doi       = {10.48550/ARXIV.2101.06980},
+  url       = {https://arxiv.org/abs/2101.06980},
+  author    = {Hofstätter, Sebastian and Lipani, Aldo and Althammer, Sophia and Zlabinger, Markus and Hanbury, Allan},
+  keywords  = {Information Retrieval (cs.IR), Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Mitigating the Position Bias of Transformer Models in Passage Re-Ranking},
+  publisher = {arXiv},
+  year      = {2021},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@article{laftr2018,
+  author = {Madras, David and Creager, Elliot and Pitassi, Toniann and Zemel, Richard},
+  year   = {2018},
+  month  = {02},
+  pages  = {},
+  title  = {Learning Adversarially Fair and Transferable Representations}
+}
+
+@misc{zhang2018mitigating,
+  doi       = {10.48550/ARXIV.1801.07593},
+  url       = {https://arxiv.org/abs/1801.07593},
+  author    = {Zhang, Brian Hu and Lemoine, Blake and Mitchell, Margaret},
+  keywords  = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), Computers and Society (cs.CY), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Mitigating Unwanted Biases with Adversarial Learning},
+  publisher = {arXiv},
+  year      = {2018},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@misc{codesearchnet,
+  doi       = {10.48550/ARXIV.1909.09436},
+  url       = {https://arxiv.org/abs/1909.09436},
+  author    = {Husain, Hamel and Wu, Ho-Hsiang and Gazit, Tiferet and Allamanis, Miltiadis and Brockschmidt, Marc},
+  keywords  = {Machine Learning (cs.LG), Information Retrieval (cs.IR), Software Engineering (cs.SE), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {CodeSearchNet Challenge: Evaluating the State of Semantic Code Search},
+  publisher = {arXiv},
+  year      = {2019},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@misc{chen2021codex,
+  doi       = {10.48550/ARXIV.2107.03374},
+  url       = {https://arxiv.org/abs/2107.03374},
+  author    = {Chen, Mark and Tworek, Jerry and Jun, Heewoo and Yuan, Qiming and Pinto, Henrique Ponde de Oliveira and Kaplan, Jared and Edwards, Harri and Burda, Yuri and Joseph, Nicholas and Brockman, Greg and Ray, Alex and Puri, Raul and Krueger, Gretchen and Petrov, Michael and Khlaaf, Heidy and Sastry, Girish and Mishkin, Pamela and Chan, Brooke and Gray, Scott and Ryder, Nick and Pavlov, Mikhail and Power, Alethea and Kaiser, Lukasz and Bavarian, Mohammad and Winter, Clemens and Tillet, Philippe and Such, Felipe Petroski and Cummings, Dave and Plappert, Matthias and Chantzis, Fotios and Barnes, Elizabeth and Herbert-Voss, Ariel and Guss, William Hebgen and Nichol, Alex and Paino, Alex and Tezak, Nikolas and Tang, Jie and Babuschkin, Igor and Balaji, Suchir and Jain, Shantanu and Saunders, William and Hesse, Christopher and Carr, Andrew N. and Leike, Jan and Achiam, Josh and Misra, Vedant and Morikawa, Evan and Radford, Alec and Knight, Matthew and Brundage, Miles and Murati, Mira and Mayer, Katie and Welinder, Peter and McGrew, Bob and Amodei, Dario and McCandlish, Sam and Sutskever, Ilya and Zaremba, Wojciech},
+  keywords  = {Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Evaluating Large Language Models Trained on Code},
+  publisher = {arXiv},
+  year      = {2021},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@inproceedings{papineni2002bleu,
+  author    = {Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing},
+  title     = {BLEU: A Method for Automatic Evaluation of Machine Translation},
+  year      = {2002},
+  publisher = {Association for Computational Linguistics},
+  address   = {USA},
+  url       = {https://doi.org/10.3115/1073083.1073135},
+  doi       = {10.3115/1073083.1073135},
+  abstract  = {Human evaluations of machine translation are extensive but expensive. Human evaluations can take months to finish and involve human labor that can not be reused. We propose a method of automatic machine translation evaluation that is quick, inexpensive, and language-independent, that correlates highly with human evaluation, and that has little marginal cost per run. We present this method as an automated understudy to skilled human judges which substitutes for them when there is need for quick or frequent evaluations.},
+  booktitle = {Proceedings of the 40th Annual Meeting on Association for Computational Linguistics},
+  pages     = {311-318},
+  numpages  = {8},
+  location  = {Philadelphia, Pennsylvania},
+  series    = {ACL '02}
+}
+
+@online{mueller2018mythril,
+  author        = {Mueller, Bernhard},
+  date-added    = {2021-11-15 05:07:32 +0100},
+  date-modified = {2021-11-15 05:09:46 +0100},
+  month         = {4},
+  title         = {MythX Tech: Behind the Scenes of Smart Contract Security Analysis},
+  url           = {https://conference.hitb.org/hitbsecconf2018ams/sessions/smashing-ethereum-smart-contracts-for-fun-and-actual-profit/},
+  urldate       = {2021-10-27},
+  year          = {2018}
+}
+
+@misc{iyer2018mapping,
+  title         = {Mapping Language to Code in Programmatic Context},
+  author        = {Srinivasan Iyer and Ioannis Konstas and Alvin Cheung and Luke Zettlemoyer},
+  year          = {2018},
+  eprint        = {1808.09588},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CL},
+   url           =  {https://arxiv.org/abs/1808.09588},
+}
+
+@online{f-star,
+  author        = {Microsoft Research and Inria},
+  date-added    = {2021-10-27 23:26:20 +0200},
+  date-modified = {2021-10-27 23:46:03 +0200},
+  keywords      = {programming-language},
+  month         = {10},
+  title         = {F*},
+  url           = {https://www.fstar-lang.org/#introduction},
+  urldate       = {2021-10-27},
+  year          = {2021},
+  bdsk-url-1    = {https://www.fstar-lang.org/#introduction}
+}
+
+@online{hyperledger-fabric,
+  author        = {Hyperledger Foundation},
+  date-added    = {2021-10-27 22:53:19 +0200},
+  date-modified = {2021-10-27 22:57:30 +0200},
+  title         = {Hyperledger Fabric},
+  url           = {https://www.hyperledger.org/use/fabric},
+  urldate       = {2021-10-27},
+  bdsk-url-1    = {https://www.hyperledger.org/use/fabric}
+}
+
+@article{claerbout1991scrutiny,
+  author    = {Claerbout, Jon F},
+  journal   = {The Leading Edge},
+  number    = {1},
+  pages     = {39--41},
+  publisher = {Society of Exploration Geophysicists},
+  title     = {A Scrutiny of the Introduction},
+  volume    = {10},
+  year      = {1991}
+}
+
+@article{landes1951scrutiny,
+  author  = {Landes, Kenneth K},
+  journal = {Bulletin of the American Association of Petroleum Geologists},
+  number  = {7},
+  pages   = {1660},
+  title   = {A Scrutiny of the Abstract},
+  volume  = {35},
+  year    = {1951}
+}
+
+@article{wang2021contractward,
+  author     = {Wang, Wei and Song, Jingjing and Xu, Guangquan and Li, Yidong and Wang, Hao and Su, Chunhua},
+  doi        = {10.1109/TNSE.2020.2968505},
+  journal    = {IEEE Transactions on Network Science and Engineering},
+  number     = {2},
+  pages      = {1133-1144},
+  title      = {ContractWard: Automated Vulnerability Detection Models for Ethereum Smart Contracts},
+  volume     = {8},
+  year       = {2021},
+  bdsk-url-1 = {https://doi.org/10.1109/TNSE.2020.2968505}
+}
+
+@misc{lewispye2021general,
+  archiveprefix = {arXiv},
+  author        = {Andrew Lewis-Pye and Tim Roughgarden},
+  eprint        = {2009.09480},
+  primaryclass  = {cs.DC},
+  title         = {A General Framework for the Security Analysis of Blockchain Protocols},
+  year          = {2021}
+}
+
+@misc{matsumura2021vulnerabilities,
+  archiveprefix = {arXiv},
+  author        = {Gabriel de Sousa Matsumura and Luciana Brasil Rebelo dos Santos and Arlindo Flavio da Concei{\c c}{\~a}o and Nandamudi Lankalapalli Vijaykumar},
+  eprint        = {2104.12295},
+  primaryclass  = {cs.SE},
+  title         = {Vulnerabilities and Open Issues of Smart Contracts: A Systematic Mapping},
+  year          = {2021}
+}
+
+@inproceedings{kalra2018zeus,
+  author    = {Sukrit Kalra and Seep Goel and Mohan Dhawan and Subodh Sharma},
+  booktitle = {NDSS},
+  title     = {ZEUS: Analyzing Safety of Smart Contracts},
+  year      = {2018}
+}
+
+@inproceedings{mark2019manticore,
+  author     = {Mossberg, Mark and Manzano, Felipe and Hennenfent, Eric and Groce, Alex and Grieco, Gustavo and Feist, Josselin and Brunson, Trent and Dinaburg, Artem},
+  booktitle  = {2019 34th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  doi        = {10.1109/ASE.2019.00133},
+  pages      = {1186-1189},
+  title      = {Manticore: A User-Friendly Symbolic Execution Framework for Binaries and Smart Contracts},
+  year       = {2019},
+  bdsk-url-1 = {https://doi.org/10.1109/ASE.2019.00133}
+}
+
+@inproceedings{tsankov2018securify,
+  address    = {New York, NY, USA},
+  author     = {Tsankov, Petar and Dan, Andrei and Drachsler-Cohen, Dana and Gervais, Arthur and B\"{u}nzli, Florian and Vechev, Martin},
+  booktitle  = {Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security},
+  doi        = {10.1145/3243734.3243780},
+  isbn       = {9781450356930},
+  keywords   = {verification, security analysis, stratified datalog, smart contracts},
+  location   = {Toronto, Canada},
+  numpages   = {16},
+  pages      = {67--82},
+  publisher  = {Association for Computing Machinery},
+  series     = {CCS '18},
+  title      = {Securify: Practical Security Analysis of Smart Contracts},
+  url        = {https://doi.org/10.1145/3243734.3243780},
+  year       = {2018},
+  bdsk-url-1 = {https://doi.org/10.1145/3243734.3243780}
+}
+
+@misc{brent2018vandal,
+  archiveprefix = {arXiv},
+  author        = {Lexi Brent and Anton Jurisevic and Michael Kong and Eric Liu and Francois Gauthier and Vincent Gramoli and Ralph Holz and Bernhard Scholz},
+  eprint        = {1809.03981},
+  primaryclass  = {cs.PL},
+  title         = {Vandal: A Scalable Security Analysis Framework for Smart Contracts},
+  year          = {2018}
+}
+
+@misc{gogineni2020multiclass,
+  archiveprefix = {arXiv},
+  author        = {Ajay K. Gogineni and S. Swayamjyoti and Devadatta Sahoo and Kisor K. Sahu and Raj kishore},
+  eprint        = {2004.00362},
+  primaryclass  = {cs.IR},
+  title         = {Multi-Class classification of vulnerabilities in Smart Contracts using AWD-LSTM, with pre-trained encoder inspired from natural language processing},
+  year          = {2020}
+}
+
+@misc{huang2018hunting,
+  archiveprefix = {arXiv},
+  author        = {TonTon Hsien-De Huang},
+  eprint        = {1807.01868},
+  primaryclass  = {cs.CR},
+  title         = {Hunting the Ethereum Smart Contract: Color-inspired Inspection of Potential Attacks},
+  year          = {2018}
+}
+
+@inproceedings{zhuang2020smart,
+  author     = {Zhuang, Yuan and Liu, Zhenguang and Qian, Peng and Liu, Qi and Wang, Xiang and He, Qinming},
+  booktitle  = {Proceedings of the Twenty-Ninth International Joint Conference on Artificial Intelligence, {IJCAI-20}},
+  doi        = {10.24963/ijcai.2020/454},
+  editor     = {Christian Bessiere},
+  month      = {7},
+  note       = {Main track},
+  pages      = {3283--3290},
+  publisher  = {International Joint Conferences on Artificial Intelligence Organization},
+  title      = {Smart Contract Vulnerability Detection using Graph Neural Network},
+  url        = {https://doi.org/10.24963/ijcai.2020/454},
+  year       = {2020},
+  bdsk-url-1 = {https://doi.org/10.24963/ijcai.2020/454}
+}
+
+@misc{sergey2018scilla,
+  archiveprefix = {arXiv},
+  author        = {Ilya Sergey and Amrit Kumar and Aquinas Hobor},
+  eprint        = {1801.00687},
+  primaryclass  = {cs.PL},
+  title         = {Scilla: a Smart Contract Intermediate-Level LAnguage},
+  year          = {2018}
+}
+
+@inproceedings{luu2016making,
+  author               = {Luu, Loi and Chu, Duc-Hiep and Olickel, Hrishi and Saxena, Prateek and Hobor, Aquinas},
+  book-group-author    = {{ACM}},
+  booktitle            = {{Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security}},
+  doi                  = {{10.1145/2976749.2978309}},
+  isbn                 = {{978-1-4503-4139-4}},
+  note                 = {{23rd ACM Conference on Computer and Communications Security (CCS), Vienna, AUSTRIA, OCT 24-28, 2016}},
+  organization         = {{Assoc Comp Machinery; ACM Special Interest Grp Secur Audit \& Control}},
+  pages                = {{254-269}},
+  researcherid-numbers = {{Sanchez-Gomez, Nicolas/K-3758-2014}},
+  title                = {{Making Smart Contracts Smarter}},
+  unique-id            = {{WOS:000387820900011}},
+  year                 = {2016},
+  bdsk-url-1           = {https://doi.org/10.1145/2976749.2978309%7D}
+}
+
+@techreport{kitchenham2007guidelines,
+  abstract             = {The objective of this report is to propose comprehensive guidelines for systematic literature reviews appropriate for software engineering researchers, including PhD students. A systematic literature review is a means of evaluating and interpreting all available research relevant to a particular research question, topic area, or phenomenon of interest. Systematic reviews aim to present a fair evaluation of a research topic by using a trustworthy, rigorous, and auditable methodology. The guidelines presented in this report were derived from three existing guidelines used by medical researchers, two books produced by researchers with social science backgrounds and discussions with researchers from other disciplines who are involved in evidence-based practice. The guidelines have been adapted to reflect the specific problems of software engineering research. The guidelines cover three phases of a systematic literature review: planning the review, conducting the review and reporting the review. They provide a relatively high level description. They do not consider the impact of the research questions on the review procedures, nor do they specify in detail the mechanisms needed to perform meta-analysis.},
+  added-at             = {2019-11-16T00:31:45.000+0100},
+  author               = {Kitchenham, Barbara Ann and Charters, Stuart},
+  biburl               = {https://www.bibsonomy.org/bibtex/23f4b30c0fe1435b642467af4cca120ef/jpmor},
+  citeulike-article-id = {3955888},
+  day                  = 09,
+  institution          = {Keele University and Durham University Joint Report},
+  interhash            = {aed0229656ada843d3e3f24e5e5c9eb9},
+  intrahash            = {3f4b30c0fe1435b642467af4cca120ef},
+  keywords             = {engineering evidence evidence-based literature real review software systematic},
+  language             = {english},
+  month                = {07},
+  number               = {EBSE 2007-001},
+  posted-at            = {2009-01-28 11:17:05},
+  priority             = {2},
+  school               = {Keele University},
+  timestamp            = {2020-10-07T13:36:50.000+0200},
+  title                = {Guidelines for performing Systematic Literature Reviews in Software Engineering},
+  url                  = {https://www.elsevier.com/__data/promis_misc/525444systematicreviewsguide.pdf},
+  year                 = 2007,
+  bdsk-url-1           = {https://www.elsevier.com/__data/promis_misc/525444systematicreviewsguide.pdf}
+}
+
+@inproceedings{oyente2016making,
+  address                    = {{1515 BROADWAY, NEW YORK, NY 10036-9998 USA}},
+  affiliation                = {{Luu, L (Corresponding Author), Natl Univ Singapore, Singapore 117548, Singapore. Luu, Loi; Chu, Duc-Hiep; Saxena, Prateek; Hobor, Aquinas, Natl Univ Singapore, Singapore 117548, Singapore. Olickel, Hrishi; Hobor, Aquinas, Yale NUS Coll, Singapore, Singapore.}},
+  author                     = {Luu, Loi and Chu, Duc-Hiep and Olickel, Hrishi and Saxena, Prateek and Hobor, Aquinas},
+  author-email               = {{loiluu@comp.nus.edu.sg hiepcd@comp.nus.edu.sg hrishi.olickel@yale-nus.edu.sg prateeks@comp.nus.edu.sg hobor@comp.nus.edu.sg}},
+  book-group-author          = {{ACM}},
+  booktitle                  = {{CCS'16: PROCEEDINGS OF THE 2016 ACM SIGSAC CONFERENCE ON COMPUTER AND COMMUNICATIONS SECURITY}},
+  da                         = {{2021-11-07}},
+  doc-delivery-number        = {{BG2ZW}},
+  doi                        = {{10.1145/2976749.2978309}},
+  isbn                       = {{978-1-4503-4139-4}},
+  language                   = {{English}},
+  note                       = {{23rd ACM Conference on Computer and Communications Security (CCS), Vienna, AUSTRIA, OCT 24-28, 2016}},
+  number-of-cited-references = {{28}},
+  organization               = {{Assoc Comp Machinery; ACM Special Interest Grp Secur Audit \& Control}},
+  pages                      = {{254-269}},
+  publisher                  = {{ASSOC COMPUTING MACHINERY}},
+  research-areas             = {{Computer Science; Telecommunications}},
+  researcherid-numbers       = {{Sanchez-Gomez, Nicolas/K-3758-2014}},
+  times-cited                = {{395}},
+  title                      = {{Making Smart Contracts Smarter}},
+  type                       = {{Proceedings Paper}},
+  unique-id                  = {{WOS:000387820900011}},
+  usage-count-last-180-days  = {{11}},
+  usage-count-since-2013     = {{132}},
+  web-of-science-categories  = {{Computer Science, Information Systems; Telecommunications}},
+  year                       = {2016},
+  bdsk-url-1                 = {https://doi.org/10.1145/2976749.2978309}
+}
+
+@inproceedings{tikhomirov2018smartcheck,
+  address    = {New York, NY, USA},
+  author     = {Tikhomirov, Sergei and Voskresenskaya, Ekaterina and Ivanitskiy, Ivan and Takhaviev, Ramil and Marchenko, Evgeny and Alexandrov, Yaroslav},
+  booktitle  = {Proceedings of the 1st International Workshop on Emerging Trends in Software Engineering for Blockchain},
+  doi        = {10.1145/3194113.3194115},
+  isbn       = {9781450357265},
+  keywords   = {solidity, static analysis, smart contracts, ethereum, bug detection},
+  location   = {Gothenburg, Sweden},
+  numpages   = {8},
+  pages      = {9--16},
+  publisher  = {Association for Computing Machinery},
+  series     = {WETSEB '18},
+  title      = {SmartCheck: Static Analysis of Ethereum Smart Contracts},
+  url        = {https://doi.org/10.1145/3194113.3194115},
+  year       = {2018},
+  bdsk-url-1 = {https://doi.org/10.1145/3194113.3194115}
+}
+
+@inproceedings{zhou2018security,
+  address                    = {{345 E 47TH ST, NEW YORK, NY 10017 USA}},
+  affiliation                = {{Zhou, E (Corresponding Author), Fujitsu Res \& Dev Ctr, Informat Technol Lab, Suzhou, Peoples R China. Zhou, Ence; Hua, Song; Pi, Bingfeng, Fujitsu Res \& Dev Ctr, Informat Technol Lab, Suzhou, Peoples R China. Sun, Jun, Fujitsu Res \& Dev Ctr, Informat Technol Lab, Beijing, Peoples R China. Nomura, Yashihide; Yamashita, Kazuhiro; Kurihara, Hidetoshi, Fujitsu Labs Ltd, Informat Syst Technol Lab, Kawasaki, Kanagawa, Japan.}},
+  author                     = {Zhou, Ence and Hua, Song and Pi, Bingfeng and Sun, Jun and Nomura, Yashihide and Yamashita, Kazuhiro and Kurihara, Hidetoshi},
+  author-email               = {{zhouence@cn.fujitsu.com huasong@cn.fujitsu.com winter.pi@cn.fujitsu.com sunjun@cn.fujitsu.com y.nomura@jp.fujitsu.com y-kazuhiro@jp.fujitsu.com kurihara.hide@jp.fujitsu.com}},
+  book-group-author          = {{IEEE}},
+  booktitle                  = {{2018 9TH IFIP INTERNATIONAL CONFERENCE ON NEW TECHNOLOGIES, MOBILITY AND SECURITY (NTMS)}},
+  da                         = {{2021-11-07}},
+  doc-delivery-number        = {{BL2CQ}},
+  isbn                       = {{978-1-5386-3662-6}},
+  issn                       = {{2157-4952}},
+  keywords                   = {{ethereum blockchain; smart contract; topological analysis; logic risk location; security assurance}},
+  language                   = {{English}},
+  note                       = {{9th IFIP International Conference on New Technologies, Mobility and Security (NTMS), Paris, FRANCE, FEB 26-28, 2018}},
+  number-of-cited-references = {{6}},
+  organization               = {{IFIP TC6 5 Working Grp; IEEE; System X Inst Rech Technologique; LiP6; CNRS; TELECOM ParisTech; IEEE Commun Soc}},
+  publisher                  = {{IEEE}},
+  research-areas             = {{Computer Science; Engineering; Telecommunications}},
+  researcherid-numbers       = {{Sanchez-Gomez, Nicolas/K-3758-2014}},
+  series                     = {{International Conference on New Technologies Mobility and Security}},
+  times-cited                = {{3}},
+  title                      = {{Security Assurance for Smart Contract}},
+  type                       = {{Proceedings Paper}},
+  unique-id                  = {{WOS:000448864200073}},
+  usage-count-last-180-days  = {{0}},
+  usage-count-since-2013     = {{0}},
+  web-of-science-categories  = {{Computer Science, Theory \& Methods; Engineering, Electrical \& Electronic; Telecommunications}},
+  year                       = {2018}
+}
+
+@article{lu2019neucheck,
+  author               = {Lu, Ning and Wang, Bin and Zhang, Yongxin and Shi, Wenbo and Esposito, Christian},
+  doi                  = {{10.1002/spe.2745}},
+  early-access-date    = {{AUG 2019}},
+  eissn                = {{1097-024X}},
+  issn                 = {{0038-0644}},
+  journal              = {{SOFTWARE-PRACTICE \& EXPERIENCE}},
+  month                = {OCT},
+  number               = {{10, SI}},
+  orcid-numbers        = {{ESPOSITO, Christiancarmine/0000-0002-0085-0748Lu, ning/0000-0001-7325-7307}},
+  pages                = {{2065-2084}},
+  researcherid-numbers = {{ESPOSITO, Christiancarmine/AAI-4626-2020}},
+  title                = {{NeuCheck: A more practical Ethereum smart contract security analysis tool}},
+  unique-id            = {{WOS:000484100100001}},
+  volume               = {{51}},
+  year                 = {2019},
+  bdsk-url-1           = {https://doi.org/10.1002/spe.2745%7D}
+}
+
+@inproceedings{akca2019solanalyser,
+  author     = {Akca, Sefa and Rajan, Ajitha and Peng, Chao},
+  booktitle  = {2019 26th Asia-Pacific Software Engineering Conference (APSEC)},
+  doi        = {10.1109/APSEC48747.2019.00071},
+  pages      = {482-489},
+  title      = {SolAnalyser: A Framework for Analysing and Testing Smart Contracts},
+  year       = {2019},
+  bdsk-url-1 = {https://doi.org/10.1109/APSEC48747.2019.00071}
+}
+
+@conference{nikolic2018finding,
+  author        = {Nikoli{\'c}, I. and Kolluri, A. and Sergey, I. and Saxena, P. and Hobor, A.},
+  document_type = {Conference Paper},
+  doi           = {10.1145/3274694.3274743},
+  journal       = {ACM International Conference Proceeding Series},
+  note          = {cited By 142},
+  pages         = {653-663},
+  title         = {Finding the greedy, prodigal, and suicidal contracts at scale},
+  url           = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85060022651&doi=10.1145%2f3274694.3274743&partnerID=40&md5=9bbfbf4caa9303d34c5e6dc974ece9d2},
+  year          = {2018},
+  bdsk-url-1    = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85060022651&doi=10.1145%2f3274694.3274743&partnerID=40&md5=9bbfbf4caa9303d34c5e6dc974ece9d2},
+  bdsk-url-2    = {https://doi.org/10.1145/3274694.3274743}
+}
+
+@inproceedings{zhang2019mpro,
+  author        = {Zhang, William and Ganesh, Vijay and Banescu, Sebastian and Pasos, Leodardo and Stewart, Steven},
+  booktitle     = {{2019 IEEE 30TH INTERNATIONAL SYMPOSIUM ON SOFTWARE RELIABILITY ENGINEERING (ISSRE)}},
+  doi           = {{10.1109/ISSRE.2019.00052}},
+  editor        = {{Wolter, K and Schieferdecker, I and Gallina, B and Cukier, M and Natella, R and Ivaki, N and Laranjeiro, N}},
+  isbn          = {{978-1-7281-4982-0}},
+  issn          = {{1071-9458}},
+  note          = {{30th IEEE International Symposium on Software Reliability Engineering (ISSRE), Berlin, GERMANY, OCT 28-31, 2019}},
+  orcid-numbers = {{Ganesh, Vijay/0000-0002-6029-2047}},
+  organization  = {{IEEE; IEEE Comp Soc; Bosch; Concordia; iRights Lab; German Testing Board e V; Verteilte Intelligente Systeme e V; IEEE Reliablil Soc}},
+  pages         = {{456-462}},
+  series        = {{Proceedings International Symposium on Software Reliability Engineering}},
+  title         = {{MPro: Combining Static and Symbolic Analysis for Scalable Testing of Smart Contract}},
+  unique-id     = {{WOS:000542117600042}},
+  year          = {2019},
+  bdsk-url-1    = {https://doi.org/10.1109/ISSRE.2019.00052%7D}
+}
+
+@inproceedings{ye2020clairvoyance,
+  abstract   = {Reentrancy bugs in smart contracts caused a devastating financial loss in 2016, considered
+                as one of the most severe vulnerabilities in smart contracts. Most of the existing
+                general-purpose security tools for smart contracts have claimed to be able to detect
+                reentrancy bugs. In this paper, we present Clairvoyance, a cross-function and cross-contract
+                static analysis by identifying infeasible paths to detect reentrancy vulnerabilities
+                in smart contracts. To reduce FPs, we have summarized five major path protective techniques
+                (PPTs) to support fast yet precise path feasibility checking. We have implemented
+                our approach and compared Clairvoyance with three state-of-the-art tools on 17770
+                real-worlds contracts. The results show that Clairvoyance yields the best detection
+                accuracy among all the tools.},
+  address    = {New York, NY, USA},
+  author     = {Ye, Jiaming and Ma, Mingliang and Lin, Yun and Sui, Yulei and Xue, Yinxing},
+  booktitle  = {Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: Companion Proceedings},
+  doi        = {10.1145/3377812.3390908},
+  isbn       = {9781450371223},
+  keywords   = {reentrancy detection, path feasibility analysis, smart contract security, cross contract analysis},
+  location   = {Seoul, South Korea},
+  numpages   = {2},
+  pages      = {274--275},
+  publisher  = {Association for Computing Machinery},
+  series     = {ICSE '20},
+  title      = {Clairvoyance: Cross-Contract Static Analysis for Detecting Practical Reentrancy Vulnerabilities in Smart Contracts},
+  url        = {https://doi.org/10.1145/3377812.3390908},
+  year       = {2020},
+  bdsk-url-1 = {https://doi.org/10.1145/3377812.3390908}
+}
+
+@inproceedings{chien2020ra,
+  author     = {Chinen, Yuchiro and Yanai, Naoto and Cruz, Jason Paul and Okamura, Shingo},
+  booktitle  = {2020 IEEE International Conference on Blockchain (Blockchain)},
+  doi        = {10.1109/Blockchain50366.2020.00048},
+  pages      = {327-336},
+  title      = {RA: Hunting for Re-Entrancy Attacks in Ethereum Smart Contracts via Static Analysis},
+  year       = {2020},
+  bdsk-url-1 = {https://doi.org/10.1109/Blockchain50366.2020.00048}
+}
+
+@misc{datalog,
+  author       = {Wikipedia},
+  howpublished = {\url{http://en.wikipedia.org/w/index.php?title=Datalog&oldid=1053711548}},
+  note         = {[Online; accessed 13-November-2021]},
+  title        = {{Datalog} --- {W}ikipedia{,} The Free Encyclopedia},
+  year         = {2021}
+}
+
+@article{grech2018madmax,
+  address    = {New York, NY, USA},
+  articleno  = {116},
+  author     = {Grech, Neville and Kong, Michael and Jurisevic, Anton and Brent, Lexi and Scholz, Bernhard and Smaragdakis, Yannis},
+  doi        = {10.1145/3276486},
+  issue_date = {November 2018},
+  journal    = {Proc. ACM Program. Lang.},
+  keywords   = {Blockchain, Security, Program Analysis, Smart Contracts},
+  month      = oct,
+  number     = {OOPSLA},
+  numpages   = {27},
+  publisher  = {Association for Computing Machinery},
+  title      = {MadMax: Surviving out-of-Gas Conditions in Ethereum Smart Contracts},
+  url        = {https://doi.org/10.1145/3276486},
+  volume     = {2},
+  year       = {2018},
+  bdsk-url-1 = {https://doi.org/10.1145/3276486}
+}
+
+@article{ali2021sescon,
+  article-number = {{2897565}},
+  author         = {Ali, Amir and Ul Abideen, Zain and Ullah, Kalim},
+  doi            = {{10.1155/2021/2897565}},
+  eissn          = {{1939-0122}},
+  issn           = {{1939-0114}},
+  journal        = {{SECURITY AND COMMUNICATION NETWORKS}},
+  month          = {SEP},
+  title          = {{SESCon: Secure Ethereum Smart Contracts by Vulnerable Patterns' Detection}},
+  unique-id      = {{WOS:000703327100001}},
+  volume         = {{2021}},
+  year           = {2021},
+  bdsk-url-1     = {https://doi.org/10.1155/2021/2897565%7D}
+}
+
+@incollection{ma2020rejection,
+  author     = {Rui Ma and Zefeng Jian and Guangyuan Chen and Ke Ma and Yujia Chen},
+  booktitle  = {Communications in Computer and Information Science},
+  doi        = {10.1007/978-981-15-3418-8_5},
+  pages      = {58--71},
+  publisher  = {Springer Singapore},
+  title      = {{ReJection}: A {AST}-Based Reentrancy Vulnerability Detection Method},
+  url        = {https://doi.org/10.1007%2F978-981-15-3418-8_5},
+  year       = 2020,
+  bdsk-url-1 = {https://doi.org/10.1007%2F978-981-15-3418-8_5},
+  bdsk-url-2 = {https://doi.org/10.1007/978-981-15-3418-8_5}
+}
+
+@inproceedings{albert2018ethir,
+  abstract  = {Analyzing Ethereum bytecode, rather than the source code from which it was generated, is a necessity when: (1) the source code is not available (e.g., the blockchain only stores the bytecode), (2) the information to be gathered in the analysis is only visible at the level of bytecode (e.g., gas consumption is specified at the level of EVM instructions), (3) the analysis results may be affected by optimizations performed by the compiler (thus the analysis should be done ideally after compilation). This paper presents EthIR, a framework for analyzing Ethereum bytecode, which relies on (an extension of) Oyente, a tool that generates CFGs; EthIR produces from the CFGs, a rule-based representation (RBR) of the bytecode that enables the application of (existing) high-level analyses to infer properties of EVM code.},
+  address   = {Cham},
+  author    = {Albert, Elvira and Gordillo, Pablo and Livshits, Benjamin and Rubio, Albert and Sergey, Ilya},
+  booktitle = {Automated Technology for Verification and Analysis},
+  editor    = {Lahiri, Shuvendu K. and Wang, Chao},
+  isbn      = {978-3-030-01090-4},
+  pages     = {513--520},
+  publisher = {Springer International Publishing},
+  title     = {EthIR: A Framework for High-Level Analysis of Ethereum Bytecode},
+  year      = {2018}
+}
+
+@inproceedings{albert2019safevm,
+  author               = {Albert, Elvira and Correas, Jesus and Gordillo, Pablo and Roman-Diez, Guillermo and Rubio, Albert},
+  booktitle            = {{PROCEEDINGS OF THE 28TH ACM SIGSOFT INTERNATIONAL SYMPOSIUM ON SOFTWARE TESTING AND ANALYSIS (ISSTA `19)}},
+  doi                  = {{10.1145/3293882.3338999}},
+  editor               = {{Zhang, DM and Moller, A}},
+  isbn                 = {{978-1-4503-6224-5}},
+  note                 = {{28th ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA), Beijing, PEOPLES R CHINA, JUL 15-19, 2019}},
+  orcid-numbers        = {{Correas, Jesus/0000-0002-3219-0799 Gordillo, Pablo/0000-0001-6189-4667 Roman-Diez, Guillermo/0000-0002-5427-8855}},
+  organization         = {{Assoc Comp Machinery; ACM SIGSOFT; Microsoft Res; DiDi; Google; Huawei; MoocTest; Facebook; Fujitsu; Sourcebrella; UCLouvain}},
+  pages                = {{386-389}},
+  researcherid-numbers = {{Correas, Jesus/AAG-4430-2020 Roman-Diez, Guillermo/AAS-4445-2020 Gordillo, Pablo/X-4552-2018 }},
+  title                = {{SAFEVM: A Safety Verifier for Ethereum Smart Contracts}},
+  unique-id            = {{WOS:000503498000039}},
+  year                 = {2019},
+  bdsk-url-1           = {https://doi.org/10.1145/3293882.3338999%7D}
+}
+
+@inproceedings{mossberg2019manticore,
+  author            = {Mossberg, Mark and Manzano, Felipe and Hennenfent, Eric and Groce, Alex and Grieco, Gustavo and Feist, Josselin and Brunson, Trent and Dinaburg, Artem},
+  book-group-author = {{IEEE}},
+  booktitle         = {{34TH IEEE/ACM INTERNATIONAL CONFERENCE ON AUTOMATED SOFTWARE ENGINEERING (ASE 2019)}},
+  doi               = {{10.1109/ASE.2019.00133}},
+  isbn              = {{978-1-7281-2508-4}},
+  note              = {{34th IEEE/ACM International Conference on Automated Software Engineering (ASE), San Diego, CA, NOV 10-11, 2019}},
+  organization      = {{IEEE; Assoc Comp Machinery; IEEE Comp Soc; IEEE Comp Soc Tech Council Software Engn; ACM Special Interest Grp Artificial Intelligence; ACM Special Interest Grp Software Engn}},
+  pages             = {{1186-1189}},
+  title             = {{Manticore: A User-Friendly Symbolic Execution Framework for Binaries and Smart Contracts}},
+  unique-id         = {{WOS:000533303400126}},
+  year              = {2019},
+  bdsk-url-1        = {https://doi.org/10.1109/ASE.2019.00133%7D}
+}
+
+@inproceedings{jiang2018contractfuzzer,
+  author       = {Jiang, Bo and Liu, Ye and Chan, W. C.},
+  editor       = {{Huchard, M and Kastner, C and Fraser, G}},
+  title        = {{ContractFuzzer: Fuzzing Smart Contracts for Vulnerability Detection}},
+  booktitle    = {{PROCEEDINGS OF THE 2018 33RD IEEE/ACM INTERNATIONAL CONFERENCE ON
+                  AUTOMTED SOFTWARE ENGINEERING (ASE' 18)}},
+  series       = {{IEEE ACM International Conference on Automated Software Engineering}},
+  year         = {2018},
+  pages        = {{259-269}},
+  note         = {{33rd IEEE/ACM International Conference on Automated Software Engineering
+                  (ASE), Montpellier, FRANCE, SEP 03-07, 2018}},
+  organization = {{IEEE; Assoc Comp Machinery; ACM SIGSOFT; ACM SIGAI; CNRS; IEEE CS;
+                  Huawei; Berger Levrault; Mobioos; Toyota InfoTechnol Ctr; Reg Occitanie;
+                  Inria; LIRMM; Univ Montpellier; Inst Mines Telecom Ecole Mines Telecom;
+                  Montpellier Univ Excellence; Investissements DAvenir}},
+  doi          = {{10.1145/3238147.3238177}},
+  issn         = {{1527-1366}},
+  isbn         = {{978-1-4503-5937-5}},
+  unique-id    = {{WOS:000553784500027}}
+}
+
+
+@inproceedings{liu2018reguard,
+  author               = {Liu, Chao and Liu, Han and Cao, Zhao and Chen, Zhong and Chen, Bangdao
+                          and Roscoe, Bill},
+  book-group-author    = {{IEEE}},
+  title                = {{ReGuard: Finding Reentrancy Bugs in Smart Contracts}},
+  booktitle            = {{PROCEEDINGS 2018 IEEE/ACM 40TH INTERNATIONAL CONFERENCE ON SOFTWARE
+                          ENGINEERING - COMPANION (ICSE-COMPANION}},
+  series               = {{Proceedings of the IEEE-ACM International Conference on Software
+                          Engineering Companion}},
+  year                 = {2018},
+  pages                = {{65-68}},
+  note                 = {{40th ACM/IEEE International Conference on Software Engineering (ICSE),
+                          Gothenburg, SWEDEN, MAY 27-JUN 03, 2018}},
+  organization         = {{IEEE; Assoc Comp Machinery; IEEE Comp Soc; Microsoft Res}},
+  doi                  = {{10.1145/3183440.3183495}},
+  issn                 = {{2574-1926}},
+  isbn                 = {{978-1-4503-5663-3}},
+  researcherid-numbers = {{Sanchez-Gomez, Nicolas/K-3758-2014}},
+  unique-id            = {{WOS:000450109000017}}
+}
+
+
+@inproceedings{yamashita2019potential,
+  author       = {Yamashita, Kazuhiro and Nomura, Yoshihide and Zhou, Ence and Pi,
+                  Bingfeng and Jun, Sun},
+  editor       = {{Tonelli, R and Ducasse, S and Marchesi, M and Bracciali, A}},
+  title        = {{Potential Risks of Hyperledger Fabric Smart Contracts}},
+  booktitle    = {{2019 IEEE 2ND INTERNATIONAL WORKSHOP ON BLOCKCHAIN ORIENTED SOFTWARE
+                  ENGINEERING (IWBOSE)}},
+  year         = {2019},
+  pages        = {{1-10}},
+  note         = {{2nd IEEE International Workshop on Blockchain Oriented Software
+                  Engineering (IWBOSE), Hangzhou, PEOPLES R CHINA, FEB 24, 2019}},
+  organization = {{IEEE; IEEE Comp Soc}},
+  isbn         = {{978-1-7281-1807-9}},
+  unique-id    = {{WOS:000469455400001}}
+}
+
+@misc{nguyen2020sfuzz,
+  title         = {sFuzz: An Efficient Adaptive Fuzzer for Solidity Smart Contracts},
+  author        = {Tai D. Nguyen and Long H. Pham and Jun Sun and Yun Lin and Quang Tran Minh},
+  year          = {2020},
+  eprint        = {2004.08563},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.SE}
+}
+
+@inproceedings{grieco2020echidna,
+  author    = {Grieco, Gustavo and Song, Will and Cygan, Artur and Feist, Josselin and Groce, Alex},
+  title     = {Echidna: Effective, Usable, and Fast Fuzzing for Smart Contracts},
+  year      = {2020},
+  isbn      = {9781450380089},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3395363.3404366},
+  doi       = {10.1145/3395363.3404366},
+  booktitle = {Proceedings of the 29th ACM SIGSOFT International Symposium on Software Testing and Analysis},
+  pages     = {557–560},
+  numpages  = {4},
+  keywords  = {fuzzing, test generation, smart contracts},
+  location  = {Virtual Event, USA},
+  series    = {ISSTA 2020}
+}
+
+@inproceedings{he2019learning,
+  author    = {He, Jingxuan and Balunovi{\'c}, Mislav and Ambroladze, Nodar and Tsankov, Petar and Vechev, Martin},
+  title     = {Learning to Fuzz from Symbolic Execution with Application to Smart Contracts},
+  year      = {2019},
+  isbn      = {9781450367479},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3319535.3363230},
+  doi       = {10.1145/3319535.3363230},
+  booktitle = {Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security},
+  pages     = {531–548},
+  numpages  = {18},
+  keywords  = {imitation learning, smart contracts, fuzzing, symbolic execution},
+  location  = {London, United Kingdom},
+  series    = {CCS '19}
+}
+
+
+
+
+@inproceedings{momeni2019machine,
+  author       = {Momeni, Pouyan and Wang, Yu and Samavi, Reza},
+  editor       = {{Ghorbani, A and Ray, I and Lashkari, AH and Zhang, J and Lu, R}},
+  title        = {{Machine Learning Model for Smart Contracts Security Analysis}},
+  booktitle    = {{2019 17TH INTERNATIONAL CONFERENCE ON PRIVACY, SECURITY AND TRUST (PST)}},
+  series       = {{Annual Conference on Privacy Security and Trust-PST}},
+  year         = {2019},
+  pages        = {{272-277}},
+  note         = {{17th International Conference on Privacy, Security and Trust (PST),
+                  Fredericton, CANADA, AUG 26-28, 2019}},
+  organization = {{IEEE; Atlantic Canada Opportunities Agcy; TD Bank; IEEE New Brunswick
+                  Sect; CyberNB; Ignite Fredericton; ARMIS}},
+  issn         = {{1712-364X}},
+  isbn         = {{978-1-7281-3265-5}},
+  unique-id    = {{WOS:000561703600033}}
+}
+
+
+@article{xu2021security,
+  author         = {Xu, Yingjie and Hu, Gengran and You, Lin and Cao, Chengtang},
+  title          = {{A Novel Machine Learning-Based Analysis Model for Smart Contract
+                    Vulnerability}},
+  journal        = {{SECURITY AND COMMUNICATION NETWORKS}},
+  year           = {2021},
+  volume         = {{2021}},
+  month          = {AUG},
+  doi            = {{10.1155/2021/5798033}},
+  article-number = {{5798033}},
+  issn           = {{1939-0114}},
+  eissn          = {{1939-0122}},
+  orcid-numbers  = {{YOU, LIN/0000-0003-2049-8961
+                    Hu, Gengran/0000-0002-3061-2388}},
+  unique-id      = {{WOS:000687462200004}}
+}
+
+
+@article{xing2020anew,
+  author            = {Xing, Cipai and Chen, Zhuorong and Chen, Lexin and Guo, Xiaojie and
+                       Zheng, Zibin and Li, Jin},
+  title             = {{A new scheme of vulnerability analysis in smart contract with machine
+                       learning}},
+  journal           = {{WIRELESS NETWORKS}},
+  doi               = {{10.1007/s11276-020-02379-z}},
+  early-access-date = {{JUL 2020}},
+  year              = {2020},
+  issn              = {{1022-0038}},
+  eissn             = {{1572-8196}},
+  unique-id         = {{WOS:000546538400002}}
+}
+
+@misc{mikolov2013distributed,
+  title         = {Distributed Representations of Words and Phrases and their Compositionality},
+  author        = {Tomas Mikolov and Ilya Sutskever and Kai Chen and Greg Corrado and Jeffrey Dean},
+  year          = {2013},
+  eprint        = {1310.4546},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CL}
+}
+
+
+@article{qian2020towards,
+  author        = {Qian, Peng and Liu, Zhenguang and He, Qinming and Zimmermann, Roger and
+                   Wang, Xun},
+  title         = {{Towards Automated Reentrancy Detection for Smart Contracts Based on
+                   Sequential Models}},
+  journal       = {{IEEE ACCESS}},
+  year          = {2020},
+  volume        = {{8}},
+  pages         = {{19685-19695}},
+  doi           = {{10.1109/ACCESS.2020.2969429}},
+  issn          = {{2169-3536}},
+  orcid-numbers = {{Qian, Peng/0000-0003-4934-5811}},
+  unique-id     = {{WOS:000525389200002}}
+}
+
+
+@inproceedings{mi2021vscl,
+  author            = {Mi, Feng and Wang, Zhuoyi and Zhao, Chen and Guo, Jinghui and Ahmed,
+                       Fawaz and Khan, Latifur},
+  book-group-author = {{IEEE}},
+  title             = {{VSCL: Automating Vulnerability Detection in Smart Contracts with Deep
+                       Learning}},
+  booktitle         = {{2021 IEEE INTERNATIONAL CONFERENCE ON BLOCKCHAIN AND CRYPTOCURRENCY
+                       (ICBC)}},
+  year              = {2021},
+  note              = {{3rd IEEE International Conference on Blockchain and Cryptocurrency (IEEE
+                       ICBC), ELECTR NETWORK, MAY 03-06, 2021}},
+  organization      = {{IEEE; IEEE Commun Soc; IBM; CSIRO, Data61}},
+  doi               = {{10.1109/ICBC51069.2021.9461050}},
+  isbn              = {{978-1-6654-3578-9}},
+  unique-id         = {{WOS:000691552500001}}
+}
+
+@inproceedings{zhao2021gan,
+  author               = {Zhao, Hui and Su, Peng and Wei, Yihang and Gai, Keke and Qiu, Meikang},
+  editor               = {{Qiu, H and Zhang, C and Fei, Z and Qiu, M and Kung, SY}},
+  title                = {{GAN-Enabled Code Embedding for Reentrant Vulnerabilities Detection}},
+  booktitle            = {{KNOWLEDGE SCIENCE, ENGINEERING AND MANAGEMENT, PT III}},
+  series               = {{Lecture Notes in Artificial Intelligence}},
+  year                 = {2021},
+  volume               = {{12817}},
+  pages                = {{585-597}},
+  note                 = {{14th International Conference on Knowledge Science, Engineering, and
+                          Management (KSEM), Tokyo, JAPAN, AUG 14-16, 2021}},
+  organization         = {{Springer LNCS; Waseda Univ; N Amer Chinese Talents Assoc; Longxiang High
+                          Tech Grp Inc}},
+  doi                  = {{10.1007/978-3-030-82153-1\_48}},
+  issn                 = {{0302-9743}},
+  eissn                = {{1611-3349}},
+  isbn                 = {978-3-030-82153-1},
+  researcherid-numbers = {{Gai, Keke/M-4857-2017}},
+  orcid-numbers        = {{Gai, Keke/0000-0001-6784-0221}},
+  unique-id            = {{WOS:000689112100048}}
+}
+
+@misc{bojanowski2017enriching,
+  title         = {Enriching Word Vectors with Subword Information},
+  author        = {Piotr Bojanowski and Edouard Grave and Armand Joulin and Tomas Mikolov},
+  year          = {2017},
+  eprint        = {1607.04606},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CL}
+}
+
+@inproceedings{jordan2016souffl,
+  author    = {Jordan, Herbert
+               and Scholz, Bernhard
+               and Suboti{\'{c}}, Pavle},
+  editor    = {Chaudhuri, Swarat
+               and Farzan, Azadeh},
+  title     = {Souffl{\'e}: On Synthesis of Program Analyzers},
+  booktitle = {Computer Aided Verification},
+  year      = {2016},
+  publisher = {Springer International Publishing},
+  address   = {Cham},
+  pages     = {422--430},
+  abstract  = {Souffl{\'e} is an open source programming framework that performs static program analysis expressed in Datalog on very large code bases, including points-to analysis on OpenJDK7 (1.4M program variables, 350K objects, 160K methods) in under a minute. Souffl{\'e} is being successfully used for Java security analyses at Oracle Labs due to (1) its high-performance, (2) support for rapid program analysis development, and (3) customizability. Souffl{\'e} incorporates the highly flexible Datalog-based program analysis paradigm while exhibiting performance results that are on-par with manually developed state-of-the-art tools. In this tool paper, we introduce the Souffl{\'e} architecture, usage and demonstrate its applicability for large-scale code analysis on the OpenJDK7 library as a use case.},
+  isbn      = {978-3-319-41540-6}
+}
+
+@inproceedings{grech2019gigahorse,
+  author    = {Grech, Neville and Brent, Lexi and Scholz, Bernhard and Smaragdakis, Yannis},
+  booktitle = {2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)},
+  title     = {Gigahorse: Thorough, Declarative Decompilation of Smart Contracts},
+  year      = {2019},
+  volume    = {},
+  number    = {},
+  pages     = {1176-1186},
+  doi       = {10.1109/ICSE.2019.00120}
+}
+
+
+@inproceedings{brent2020ethainter,
+  author               = {Brent, Lexi and Grech, Neville and Lagouvardos, Sifis and Scholz,
+                          Bernhard and Smaragdakis, Yannis},
+  editor               = {{Donaldson, AF and Torlak, E}},
+  title                = {{Ethainter: A Smart Contract Security Analyzer for Composite
+                          Vulnerabilities}},
+  booktitle            = {{PROCEEDINGS OF THE 41ST ACM SIGPLAN CONFERENCE ON PROGRAMMING LANGUAGE
+                          DESIGN AND IMPLEMENTATION (PLDI `20)}},
+  year                 = {2020},
+  pages                = {{454-469}},
+  note                 = {{41st ACM SIGPLAN Conference on Programming Language Design and
+                          Implementation (PLDI), ELECTR NETWORK, JUN 15-20, 2020}},
+  organization         = {{Assoc Comp Machinery; ACM SIGPLAN}},
+  doi                  = {{10.1145/3385412.3385990}},
+  isbn                 = {{978-1-4503-7613-6}},
+  researcherid-numbers = {{Smaragdakis, Yannis/AAM-2851-2021}},
+  unique-id            = {{WOS:000614622300031}}
+}
+
+
+@article{liu2019asurvey,
+  author        = {Liu, Jing and Liu, Zhentian},
+  title         = {{A Survey on Security Verification of Blockchain Smart Contracts}},
+  journal       = {{IEEE ACCESS}},
+  year          = {2019},
+  volume        = {{7}},
+  pages         = {{77894-77904}},
+  doi           = {{10.1109/ACCESS.2019.2921624}},
+  issn          = {{2169-3536}},
+  orcid-numbers = {{Liu, Jing/0000-0003-4641-1326}},
+  unique-id     = {{WOS:000473770600001}}
+}
+
+
+@article{huang2019smart,
+  author               = {Huang, Yongfeng and Bian, Yiyang and Li, Renpu and Zhao, J. Leon and
+                          Shi, Peizhong},
+  title                = {{Smart Contract Security: A Software Lifecycle Perspective}},
+  journal              = {{IEEE ACCESS}},
+  year                 = {2019},
+  volume               = {{7}},
+  pages                = {{150184-150202}},
+  doi                  = {{10.1109/ACCESS.2019.2946988}},
+  issn                 = {{2169-3536}},
+  researcherid-numbers = {{Zhao, J. Leon/A-3921-2008}},
+  unique-id            = {{WOS:000497160500098}}
+}
+
+
+@article{almakhour2020verification,
+  author         = {Almakhour, Mouhamad and Sliman, Layth and Samhat, Abed Ellatif and
+                    Mellouk, Abdelhamid},
+  title          = {{Verification of smart contracts: A survey}},
+  journal        = {{PERVASIVE AND MOBILE COMPUTING}},
+  year           = {2020},
+  volume         = {{67}},
+  month          = {SEP},
+  doi            = {{10.1016/j.pmcj.2020.101227}},
+  article-number = {{101227}},
+  issn           = {{1574-1192}},
+  eissn          = {{1873-1589}},
+  orcid-numbers  = {{SAMHAT, Abed Ellatif/0000-0002-1137-621X
+                    ALMAKHOUR, Mouhamad/0000-0002-8234-1145}},
+  unique-id      = {{WOS:000569172900008}}
+}
+
+
+@article{he2020smart,
+  author        = {He, Daojing and Deng, Zhi and Zhang, Yuxing and Chan, Sammy and Cheng,
+                   Yao and Guizani, Nadra},
+  title         = {{Smart Contract Vulnerability Analysis and Security Audit}},
+  journal       = {{IEEE NETWORK}},
+  year          = {2020},
+  volume        = {{34}},
+  number        = {{5}},
+  pages         = {{276-282}},
+  month         = {SEP},
+  doi           = {{10.1109/MNET.001.1900656}},
+  issn          = {{0890-8044}},
+  eissn         = {{1558-156X}},
+  orcid-numbers = {{Deng, Zhi/0000-0002-7462-8410}},
+  unique-id     = {{WOS:000591303900040}}
+}
+
+
+@article{vacca2021asystematic,
+  author         = {Vacca, Anna and Di Sorbo, Andrea and Visaggio, Corrado A. and Canfora,
+                    Gerardo},
+  title          = {{A systematic literature review of blockchain and smart contract
+                    development: Techniques, tools, and open challenges}},
+  journal        = {{JOURNAL OF SYSTEMS AND SOFTWARE}},
+  year           = {2021},
+  volume         = {{174}},
+  month          = {APR},
+  doi            = {{10.1016/j.jss.2020.110891}},
+  article-number = {{110891}},
+  issn           = {{0164-1212}},
+  eissn          = {{1873-1228}},
+  orcid-numbers  = {{Di Sorbo, Andrea/0000-0002-3192-739X}},
+  unique-id      = {{WOS:000618555900005}}
+}
+
+
+@inproceedings{kim2020analysis,
+  author            = {Kim, Shinhae and Ryu, Sukyoung},
+  book-group-author = {{IEEE}},
+  title             = {{Analysis of Blockchain Smart Contracts: Techniques and Insights}},
+  booktitle         = {{2020 IEEE SECURE DEVELOPMENT (SECDEV 2020)}},
+  year              = {2020},
+  pages             = {{65-73}},
+  note              = {{IEEE Secure Development (IEEE SecDev) Conference, ELECTR NETWORK, SEP
+                       28-30, 2020}},
+  organization      = {{IEEE Comp Soc; NSF; Cisco; Off Naval Res}},
+  doi               = {{10.1109/SecDev45635.2020.00026}},
+  isbn              = {{978-1-7281-8388-6}},
+  unique-id         = {{WOS:000630446300014}}
+}
+
+
+@article{peng2021security,
+  author    = {Peng, Kai and Li, Meijun and Huang, Haojun and Wang, Chen and Wan,
+               Shaohua and Choo, Kim-Kwang Raymond},
+  title     = {{Security Challenges and Opportunities for Smart Contracts in Internet of
+               Things: A Survey}},
+  journal   = {{IEEE INTERNET OF THINGS JOURNAL}},
+  year      = {2021},
+  volume    = {{8}},
+  number    = {{15}},
+  pages     = {{12004-12020}},
+  month     = {AUG},
+  doi       = {{10.1109/JIOT.2021.3074544}},
+  issn      = {{2327-4662}},
+  unique-id = {{WOS:000678340800019}}
+}
+
+
+@article{wang2021security,
+  author            = {Wang, Yajing and He, Jingsha and Zhu, Nafei and Yi, Yuzi and Zhang,
+                       Qingqing and Song, Hongyu and Xue, Ruixin},
+  title             = {{Security enhancement technologies for smart contracts in the blockchain: A survey}},
+  journal           = {{TRANSACTIONS ON EMERGING TELECOMMUNICATIONS TECHNOLOGIES}},
+  doi               = {{10.1002/ett.4341}},
+  early-access-date = {{AUG 2021}},
+  year              = {2021},
+  article-number    = {{e4341}},
+  issn              = {{2161-3915}},
+  unique-id         = {{WOS:000685939000001}}
+}
+
+@inproceedings{atzei2017survey,
+  title        = {A survey of attacks on ethereum smart contracts (sok)},
+  author       = {Atzei, Nicola and Bartoletti, Massimo and Cimoli, Tiziana},
+  booktitle    = {International conference on principles of security and trust},
+  pages        = {164--186},
+  year         = {2017},
+  organization = {Springer}
+}
+
+@inproceedings{atzei2017asurvey,
+  address   = {Berlin, Heidelberg},
+  author    = {Atzei, Nicola and Bartoletti, Massimo and Cimoli, Tiziana},
+  booktitle = {Principles of Security and Trust},
+  editor    = {Maffei, Matteo and Ryan, Mark},
+  isbn      = {978-3-662-54455-6},
+  pages     = {164--186},
+  publisher = {Springer Berlin Heidelberg},
+  title     = {A Survey of Attacks on Ethereum Smart Contracts (SoK)},
+  year      = {2017}
+}
+
+
+
+
+@article{chen2020asurvey,
+  author     = {Chen, Huashan and Pendleton, Marcus and Njilla, Laurent and Xu, Shouhuai},
+  title      = {A Survey on Ethereum Systems Security: Vulnerabilities, Attacks, and Defenses},
+  year       = {2020},
+  issue_date = {May 2021},
+  publisher  = {Association for Computing Machinery},
+  address    = {New York, NY, USA},
+  volume     = {53},
+  number     = {3},
+  issn       = {0360-0300},
+  url        = {https://doi.org/10.1145/3391195},
+  doi        = {10.1145/3391195},
+  journal    = {ACM Comput. Surv.},
+  month      = {JUN},
+  articleno  = {67},
+  numpages   = {43},
+  keywords   = {security, Ethereum, smart contract, Blockchain}
+}
+
+
+@article{sing2020blockchain,
+  title    = {Blockchain smart contracts formalization: Approaches and challenges to address vulnerabilities},
+  journal  = {Computers \& Security},
+  volume   = {88},
+  pages    = {101654},
+  year     = {2020},
+  issn     = {0167-4048},
+  doi      = {10.1016/j.cose.2019.101654},
+  url      = {https://www.sciencedirect.com/science/article/pii/S0167404818310927},
+  author   = {Amritraj Singh and Reza M. Parizi and Qi Zhang and Kim-Kwang Raymond Choo and Ali Dehghantanha},
+  keywords = {Blockchain, Smart contracts, Formal methods, Verification, Systematic review}
+}
+
+
+@article{singh2020blockchain,
+  author               = {Singh, Amritraj and Parizi, Reza M. and Zhang, Qi and Choo, Kim-Kwang
+                          Raymond and Dehghantanha, Ali},
+  title                = {{Blockchain smart contracts formalization: Approaches and challenges to
+                          address vulnerabilities}},
+  journal              = {{COMPUTERS \& SECURITY}},
+  year                 = {2020},
+  volume               = {{88}},
+  month                = {JAN},
+  doi                  = {{10.1016/j.cose.2019.101654}},
+  article-number       = {{101654}},
+  issn                 = {{0167-4048}},
+  eissn                = {{1872-6208}},
+  researcherid-numbers = {{Parizi, Reza/AAF-3813-2019
+                          Choo, Kim-Kwang Raymond/A-3634-2009}},
+  orcid-numbers        = {{Choo, Kim-Kwang Raymond/0000-0001-9208-5336}},
+  unique-id            = {{WOS:000501392500033}}
+}
+
+
+@inproceedings{grishchenko2018foundations,
+  author    = {Grishchenko, Ilya and Maffei, Matteo and Schneidewind, Clara},
+  editor    = {{Chockler, H and Weissenbacher, G}},
+  title     = {{Foundations and Tools for the Static Analysis of Ethereum Smart
+               Contracts}},
+  booktitle = {{COMPUTER AIDED VERIFICATION (CAV 2018), PT I}},
+  series    = {{Lecture Notes in Computer Science}},
+  year      = {2018},
+  volume    = {{10981}},
+  pages     = {{51-78}},
+  note      = {{30th International Conference on Computer-Aided Verification (CAV) Held
+               as Part of the Federated Logic Conference (FloC), Oxford, ENGLAND, JUL
+               14-17, 2018}},
+  doi       = {{10.1007/978-3-319-96145-3\_4}},
+  issn      = {{0302-9743}},
+  eissn     = {{1611-3349}},
+  isbn      = {978-3-319-96145-3},
+  unique-id = {{WOS:000491481600004}}
+}
+
+@misc{lutz2021escort,
+  title         = {ESCORT: Ethereum Smart COntRacTs Vulnerability Detection using Deep Neural Network and Transfer Learning},
+  author        = {Oliver Lutz and Huili Chen and Hossein Fereidooni and Christoph Sendner and Alexandra Dmitrienko and Ahmad Reza Sadeghi and Farinaz Koushanfar},
+  year          = {2021},
+  eprint        = {2103.12607},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CR}
+}
+
+@inproceedings{yang2020seraph,
+  author    = {Yang, Zhiqiang and Liu, Han and Li, Yue and Zheng, Huixuan and Wang, Lei and Chen, Bangdao},
+  title     = {Seraph: Enabling Cross-Platform Security Analysis for EVM and WASM Smart Contracts},
+  year      = {2020},
+  isbn      = {9781450371223},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3377812.3382157},
+  doi       = {10.1145/3377812.3382157},
+  booktitle = {Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering: Companion Proceedings},
+  pages     = {21–24},
+  numpages  = {4},
+  keywords  = {symbolic semantic graph, connector API, smart contracts},
+  location  = {Seoul, South Korea},
+  series    = {ICSE '20}
+}
+
+@inproceedings{sankar2017survey,
+  author    = {Sankar, Lakshmi Siva and Sindhu, M. and Sethumadhavan, M.},
+  booktitle = {2017 4th International Conference on Advanced Computing and Communication Systems (ICACCS)},
+  title     = {Survey of consensus protocols on blockchain applications},
+  year      = {2017},
+  volume    = {},
+  number    = {},
+  pages     = {1-5},
+  doi       = {10.1109/ICACCS.2017.8014672}
+}
+
+@online{ethereum2021gas,
+  author  = {Ethereum},
+  month   = {12},
+  title   = {Gas and Fees},
+  url     = {https://ethereum.org/en/developers/docs/gas/},
+  urldate = {2022-01-04},
+  year    = {2021}
+}
+
+@misc{tann2019safer,
+  title         = {Towards Safer Smart Contracts: A Sequence Learning Approach to Detecting Security Threats},
+  author        = {Wesley Joon-Wie Tann and Xing Jie Han and Sourav Sen Gupta and Yew-Soon Ong},
+  year          = {2019},
+  eprint        = {1811.06632},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CR}
+}
+
+@online{ethereum,
+  author  = {Ethereum},
+  month   = {01},
+  title   = {Ethereum},
+  url     = {https://ethereum.org/en/},
+  urldate = {2022-01-10},
+  year    = {2022}
+}
+
+@online{ethereumclassic,
+  author  = {Ethereum},
+  month   = {12},
+  title   = {Ethereum Classic},
+  url     = {https://ethereumclassic.org},
+  urldate = {2022-01-10},
+  year    = {2021}
+}
+
+@online{bitcoin,
+  author  = {Bitcoin Project},
+  month   = {01},
+  title   = {Bitcoin},
+  url     = {https://bitcoin.org/en/},
+  urldate = {2022-01-10},
+  year    = {2022}
+}
+
+@online{eos,
+  author  = {Block.one},
+  month   = {01},
+  title   = {EOSIO},
+  url     = {https://eos.io},
+  urldate = {2022-01-10},
+  year    = {2022}
+}
+
+@online{neo,
+  author  = {Neo Team},
+  month   = {01},
+  title   = {neo},
+  url     = {https://neo.org},
+  urldate = {2022-01-10},
+  year    = {2022}
+}
+
+@online{corda,
+  author  = {r3},
+  month   = {01},
+  title   = {corda},
+  url     = {https://www.corda.net},
+  urldate = {2022-01-10},
+  year    = {2022}
+}
+
+@online{tezos,
+  author  = {tezoss},
+  month   = {01},
+  title   = {Tezos},
+  url     = {https://www.tezos.com},
+  urldate = {2022-01-10},
+  year    = {2022}
+}
+
+@online{tron,
+  author  = {tron dao},
+  month   = {01},
+  title   = {TRON},
+  url     = {https://tron.network},
+  urldate = {2022-01-10},
+  year    = {2022}
+}
+
+@online{aeternity,
+  author  = {ætternity},
+  month   = {01},
+  title   = {ætternity},
+  url     = {https://aeternity.com},
+  urldate = {2022-01-11},
+  year    = {2022}
+}
+
+@online{rchain,
+  author  = {rchain},
+  month   = {01},
+  title   = {RChain},
+  url     = {https://rchain.coop},
+  urldate = {2022-01-11},
+  year    = {2021}
+}
+
+@online{cardano,
+  author  = {Cardano},
+  month   = {01},
+  title   = {Cardano},
+  url     = {https://cardano.org},
+  urldate = {2022-01-11},
+  year    = {2021}
+}
+
+@online{aergo,
+  author  = {Aergo},
+  month   = {01},
+  title   = {Aergo},
+  url     = {https://www.aergo.io},
+  urldate = {2022-01-11},
+  year    = {2021}
+}
+
+@online{qtum,
+  author  = {QTUM CHAIN FOUNDATION},
+  month   = {01},
+  title   = {QTUM},
+  url     = {https://www.aergo.io},
+  urldate = {2022-01-11},
+  year    = {2021}
+}
+
+@online{waves,
+  author  = {Waves},
+  month   = {01},
+  title   = {Wawes},
+  url     = {https://waves.tech},
+  urldate = {2022-01-11},
+  year    = {2021}
+}
+
+@online{vechain,
+  author  = {VeChain Foundation},
+  month   = {01},
+  title   = {VeChain},
+  url     = {https://www.vechain.org},
+  urldate = {2022-01-11},
+  year    = {2021}
+}
+
+@online{technative2018gogan,
+  author  = {Gogan, Marcell},
+  month   = {12},
+  title   = {Smart Contract Security: What Are the Weak Spots of Ethereum, EOS, and NEO Networks?},
+  url     = {https://technative.io/smart-contract-security-what-are-the-weak-spots-of-ethereum-eos-and-neo-networks/},
+  urldate = {2022-01-17},
+  year    = {2018}
+}
+
+@unpublished{wang2019formal,
+  author   = {Wang, Yuepeng and Lahiri, Shuvendu and Chen, Shuo and Pan, Rong and Dillig, Isil and Born, Cody and Naseer, Immad},
+  title    = {Formal Specification and Verification of Smart Contracts for Azure Blockchain},
+  year     = {2019},
+  month    = {APR},
+  abstract = {Ensuring correctness of smart contracts is paramount to ensuring trust in blockchain-based systems. This paper studies the safety and security of smart contracts in the Azure Blockchain Workbench, an enterprise Blockchain-as-a-Service offering from Microsoft. As part of this study, we formalize semantic conformance of smart contracts against a state machine model with access-control policy and develop a highly-automated formal verifier for Solidity that can produce proofs as well as counterexamples. We have applied our verifier VeriSol to analyze all contracts shipped with the Azure Blockchain Workbench, which includes application samples as well as a governance contract for Proof of Authority (PoA). We have found previously unknown bugs in these published smart contracts. After fixing these bugs, VeriSol was able to successfully perform full verification for all of these contracts.},
+  url      = {https://www.microsoft.com/en-us/research/publication/formal-specification-and-verification-of-smart-contracts-for-azure-blockchain/}
+}
+
+
+@misc{gpt-j,
+  author       = {Wang, Ben and Komatsuzaki, Aran},
+  title        = {{GPT-J-6B: A 6 Billion Parameter Autoregressive Language Model}},
+  howpublished = {\url{https://github.com/kingoflolz/mesh-transformer-jax}},
+  year         = 2021,
+  month        = May
+}
+
+
+@online{eleutherai,
+  author  = {EleutherAI},
+  month   = {4},
+  title   = {EleutherAI},
+  url     = {https://www.eleuther.ai},
+  urldate = {2022-06-28},
+  year    = {2022}
+}
+
+@online{accuracy,
+  author  = {HuggingFace},
+  month   = {4},
+  title   = {Accuracy},
+  url     = {https://huggingface.co/spaces/evaluate-metric/accuracy},
+  urldate = {2022-06-22},
+  year    = {2022}
+}
+@online{perplexity,
+  author  = {HuggingFace},
+  month   = {4},
+  title   = {Perplexity of fixed-length models},
+  url     = {https://huggingface.co/docs/transformers/perplexity},
+  urldate = {2022-06-22},
+  year    = {2022}
+}
+@online{perplexity2,
+  author  = {Goyalm, Shweta},
+  month   = {9},
+  title   = {Perplexity of fixed-length models},
+  url     = {https://medium.com/analytics-vidhya/no-need-to-be-perplexed-by-perplexity-cd4cb71ac97b},
+  urldate = {2022-06-22},
+  year    = {2019}
+}
+@online{vyper,
+  author  = {Ethereum},
+  month   = {9},
+  title   = {Vyper},
+  url     = {https://ethereum.org/en/developers/docs/smart-contracts/languages/#vyper},
+  urldate = {2022-06-14},
+  year    = {2022}
+}
+
+@online{jaccard,
+  author  = {DeepAi},
+  month   = {4},
+  title   = {What is the Jaccard Index?},
+  url     = {https://deepai.org/machine-learning-glossary-and-terms/jaccard-index},
+  urldate = {2022-06-28},
+  year    = {2022}
+}
+
+@misc{brown2020language,
+  doi       = {10.48550/ARXIV.2005.14165},
+  url       = {https://arxiv.org/abs/2005.14165},
+  author    = {Brown, Tom B. and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and Agarwal, Sandhini and Herbert-Voss, Ariel and Krueger, Gretchen and Henighan, Tom and Child, Rewon and Ramesh, Aditya and Ziegler, Daniel M. and Wu, Jeffrey and Winter, Clemens and Hesse, Christopher and Chen, Mark and Sigler, Eric and Litwin, Mateusz and Gray, Scott and Chess, Benjamin and Clark, Jack and Berner, Christopher and McCandlish, Sam and Radford, Alec and Sutskever, Ilya and Amodei, Dario},
+  keywords  = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Language Models are Few-Shot Learners},
+  publisher = {arXiv},
+  year      = {2020},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@misc{su2021roformer,
+  doi       = {10.48550/ARXIV.2104.09864},
+  url       = {https://arxiv.org/abs/2104.09864},
+  author    = {Su, Jianlin and Lu, Yu and Pan, Shengfeng and Wen, Bo and Liu, Yunfeng},
+  keywords  = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {RoFormer: Enhanced Transformer with Rotary Position Embedding},
+  publisher = {arXiv},
+  year      = {2021},
+  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
+}
+
+@misc{pearce2021asleep,
+  doi       = {10.48550/ARXIV.2108.09293},
+  url       = {https://arxiv.org/abs/2108.09293},
+  author    = {Pearce, Hammond and Ahmad, Baleegh and Tan, Benjamin and Dolan-Gavitt, Brendan and Karri, Ramesh},
+  keywords  = {Cryptography and Security (cs.CR), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions},
+  publisher = {arXiv},
+  year      = {2021},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@article{PGL-010,
+  author     = {Sumit Gulwani and Oleksandr Polozov and Rishabh Singh},
+  doi        = {10.1561/2500000010},
+  issn       = {2325-1107},
+  journal    = {Foundations and Trends{\textregistered} in Programming Languages},
+  number     = {1-2},
+  pages      = {1-119},
+  title      = {Program Synthesis},
+  url        = {http://dx.doi.org/10.1561/2500000010},
+  volume     = {4},
+  year       = {2017},
+  bdsk-url-1 = {http://dx.doi.org/10.1561/2500000010}
+}
+	
+
+
+@misc{brown2020language,
+  doi       = {10.48550/ARXIV.2005.14165},
+  url       = {https://arxiv.org/abs/2005.14165},
+  author    = {Brown, Tom B. and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and Agarwal, Sandhini and Herbert-Voss, Ariel and Krueger, Gretchen and Henighan, Tom and Child, Rewon and Ramesh, Aditya and Ziegler, Daniel M. and Wu, Jeffrey and Winter, Clemens and Hesse, Christopher and Chen, Mark and Sigler, Eric and Litwin, Mateusz and Gray, Scott and Chess, Benjamin and Clark, Jack and Berner, Christopher and McCandlish, Sam and Radford, Alec and Sutskever, Ilya and Amodei, Dario},
+  keywords  = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Language Models are Few-Shot Learners},
+  publisher = {arXiv},
+  year      = {2020},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@online{copilot,
+  author  = {GitHub},
+  title   = {Your AI pair programmer},
+  url     = {https://github.com/features/copilot},
+  urldate = {2022-07-07},
+  year    = {2022}
+}
+
+@online{idun2,
+  author  = {NTNU High Performance Computing Group},
+  title   = {Idun},
+  url     = {https://www.hpc.ntnu.no/idun/},
+  urldate = {2022-07-01},
+  year    = {2022}
+}
+
+@misc{soliditygrammar,
+  author  = {Ethereum},
+  title   = {solidity grammar},
+  url     = {https://github.com/ethereum/solidity/tree/develop/docs/grammar},
+  urldate = {2022-04-01},
+  year    = {2022}
+}
+
+@misc{antlr4,
+  author  = {Terence Parr},
+  title   = {ANTLR 4},
+  url     = {https://www.antlr.org/index.html},
+  version = {4.10.1},
+  urldate = {2022-04-15},
+  year    = {2022}
+}
+
+@misc{solidity-antlr4,
+  author  = {Federico Bond},
+  title   = {solidity-antlr4},
+  url     = {https://github.com/solidityj/solidity-antlr4},
+  urldate = {2022-05-10},
+  year    = {2019}
+}
+
+@online{antlr-targets,
+  author  = {ANTLR},
+  title   = {Runtime Libraries and Code Generation Targets},
+  url     = {https://github.com/antlr/antlr4/blob/master/doc/targets.md},
+  urldate = {2022-07-07}
+}
+
+@online{codeforces,
+  url       = {https://codeforces.com/},
+  title     = {Codeforces},
+  year    = {2022}
+}
+
+@online{visitor-pattern,
+  author  = {ANTLR},
+  title   = {Visitor pattern},
+  url     = {https://en.wikipedia.org/wiki/Visitor_pattern},
+  urldate = {2022-07-07}
+}
+
+@book{oates2006researching,
+  author    = {Oates, Briony J},
+  title     = {Researching Information Systems and Computing},
+  year      = {2006},
+  isbn      = {1412902231},
+  publisher = {Sage Publications Ltd.}
+}
+
+@article{vaishnavi2004design,
+  author  = {Vaishnavi, Vijay K. and Kuechler, William L.},
+  doi     = {10.1007/978-1-4419-5653-8},
+  isbn    = {0849337968},
+  issn    = {02767783},
+  journal = {Ais},
+  pages   = {1--45},
+  pmid    = {12581935},
+  title   = {{Design Science Research in Information Systems}},
+  type    = {Open Access},
+  url     = {http://www.desrist.org/design-research-in-information-systems/},
+  year    = {2004}
+}
+
+
+@article{parr2011llstar,
+  author     = {Parr, Terence and Fisher, Kathleen},
+  title      = {LL(*): The Foundation of the ANTLR Parser Generator},
+  year       = {2011},
+  issue_date = {June 2011},
+  publisher  = {Association for Computing Machinery},
+  address    = {New York, NY, USA},
+  volume     = {46},
+  number     = {6},
+  issn       = {0362-1340},
+  url        = {https://doi.org/10.1145/1993316.1993548},
+  doi        = {10.1145/1993316.1993548},
+  abstract   = {Despite the power of Parser Expression Grammars (PEGs) and GLR, parsing is not a solved problem. Adding nondeterminism (parser speculation) to traditional LL and LR parsers can lead to unexpected parse-time behavior and introduces practical issues with error handling, single-step debugging, and side-effecting embedded grammar actions. This paper introduces the LL(*) parsing strategy and an associated grammar analysis algorithm that constructs LL(*) parsing decisions from ANTLR grammars. At parse-time, decisions gracefully throttle up from conventional fixed k&gt;=1 lookahead to arbitrary lookahead and, finally, fail over to backtracking depending on the complexity of the parsing decision and the input symbols. LL(*) parsing strength reaches into the context-sensitive languages, in some cases beyond what GLR and PEGs can express. By statically removing as much speculation as possible, LL(*) provides the expressivity of PEGs while retaining LL's good error handling and unrestricted grammar actions. Widespread use of ANTLR (over 70,000 downloads/year) shows that it is effective for a wide variety of applications.},
+  journal    = {SIGPLAN Not.},
+  month      = {jun},
+  pages      = {425–436},
+  numpages   = {12},
+  keywords   = {deterministic finite automata, semantic predicates, subset construction, backtracking, peg, nondeterministic parsing, context-sensitive parsing, memoization, syntactic predicates, glr, augmented transition networks}
+}
+
+@misc{epic,
+  doi       = {10.48550/ARXIV.1912.05848},
+  url       = {https://arxiv.org/abs/1912.05848},
+  author    = {Själander, Magnus and Jahre, Magnus and Tufte, Gunnar and Reissmann, Nico},
+  keywords  = {Distributed, Parallel, and Cluster Computing (cs.DC), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {EPIC: An Energy-Efficient, High-Performance GPGPU Computing Research Infrastructure},
+  publisher = {arXiv},
+  year      = {2019},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+
+@misc{nltk,
+  author  = {NLTK},
+  title   = {NLTK},
+  url     = {https://www.nltk.org},
+  version = {3.7},
+  urldate = {2022-05-27},
+  year    = {2022}
+}
+
+@misc{openzeppelin,
+  author  = {OpenZeppelin},
+  title   = {OpenZeppelin},
+  url     = {https://www.openzeppelin.com},
+  urldate = {2022-06-01},
+  year    = {2022}
+}
+
+@misc{safemath,
+  author  = {SafeMath},
+  title   = {SafeMath},
+  url     = {https://docs.openzeppelin.com/contracts/3.x/utilities#math},
+  urldate = {2022-06-01},
+  year    = {2022}
+}
+
+@misc{word2vec,
+  doi       = {10.48550/ARXIV.1301.3781},
+  url       = {https://arxiv.org/abs/1301.3781},
+  author    = {Mikolov, Tomas and Chen, Kai and Corrado, Greg and Dean, Jeffrey},
+  keywords  = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Efficient Estimation of Word Representations in Vector Space},
+  publisher = {arXiv},
+  year      = {2013},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@inproceedings{gensim,
+  address   = {Valetta, MT},
+  author    = {Řehůřek, Radim and Sojka, Petr},
+  month     = {5},
+  pages     = {45--50},
+  publisher = {University of Malta},
+  series    = {Proceedings of LREC 2010 workshop New Challenges for NLP Frameworks},
+  title     = {{Software Framework for Topic Modelling with Large Corpora}},
+  url       = {http://is.muni.cz/publication/884893/en},
+  year      = {2010}
+}
+
+@misc{deepspeed,
+  author  = {Microsoft},
+  title   = {DeepSpeed},
+  url     = {https://www.deepspeed.ai/},
+  version = {0.6.4},
+  urldate = {2022-05-06},
+  year    = {2022}
+}
+
+@misc{zero,
+  doi       = {10.48550/ARXIV.1910.02054},
+  url       = {https://arxiv.org/abs/1910.02054},
+  author    = {Rajbhandari, Samyam and Rasley, Jeff and Ruwase, Olatunji and He, Yuxiong},
+  keywords  = {Machine Learning (cs.LG), Distributed, Parallel, and Cluster Computing (cs.DC), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {ZeRO: Memory Optimizations Toward Training Trillion Parameter Models},
+  publisher = {arXiv},
+  year      = {2019},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+@misc{zeroinfinity,
+  doi       = {10.48550/ARXIV.2104.07857},
+  url       = {https://arxiv.org/abs/2104.07857},
+  author    = {Rajbhandari, Samyam and Ruwase, Olatunji and Rasley, Jeff and Smith, Shaden and He, Yuxiong},
+  keywords  = {Distributed, Parallel, and Cluster Computing (cs.DC), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), Performance (cs.PF), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning},
+  publisher = {arXiv},
+  year      = {2021},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
+@misc{mixedprecision,
+  doi       = {10.48550/ARXIV.1710.03740},
+  url       = {https://arxiv.org/abs/1710.03740},
+  author    = {Micikevicius, Paulius and Narang, Sharan and Alben, Jonah and Diamos, Gregory and Elsen, Erich and Garcia, David and Ginsburg, Boris and Houston, Michael and Kuchaiev, Oleksii and Venkatesh, Ganesh and Wu, Hao},
+  keywords  = {Artificial Intelligence (cs.AI), Machine Learning (cs.LG), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Mixed Precision Training},
+  publisher = {arXiv},
+  year      = {2017},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+
+@misc{pexpect,
+  author  = {Pexpect},
+  title   = {Pexpect},
+  url     = {https://github.com/pexpect/pexpect},
+  version = {4.8.0},
+  urldate = {2022-07-10},
+  year    = {2022}
+}
+
+@misc{ren2020codebleu,
+  doi       = {10.48550/ARXIV.2009.10297},
+  url       = {https://arxiv.org/abs/2009.10297},
+  author    = {Ren, Shuo and Guo, Daya and Lu, Shuai and Zhou, Long and Liu, Shujie and Tang, Duyu and Sundaresan, Neel and Zhou, Ming and Blanco, Ambrosio and Ma, Shuai},
+  keywords  = {Software Engineering (cs.SE), Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {CodeBLEU: a Method for Automatic Evaluation of Code Synthesis},
+  publisher = {arXiv},
+  year      = {2020},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@misc{lachaux2020unsupervised,
+  doi       = {10.48550/ARXIV.2006.03511},
+  url       = {https://arxiv.org/abs/2006.03511},
+  author    = {Lachaux, Marie-Anne and Roziere, Baptiste and Chanussot, Lowik and Lample, Guillaume},
+  keywords  = {Computation and Language (cs.CL), Programming Languages (cs.PL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Unsupervised Translation of Programming Languages},
+  publisher = {arXiv},
+  year      = {2020},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@misc{alphacode,
+  doi       = {10.48550/ARXIV.2203.07814},
+  url       = {https://arxiv.org/abs/2203.07814},
+  author    = {Li, Yujia and Choi, David and Chung, Junyoung and Kushman, Nate and Schrittwieser, Julian and Leblond, Rémi and Eccles, Tom and Keeling, James and Gimeno, Felix and Lago, Agustin Dal and Hubert, Thomas and Choy, Peter and d'Autume, Cyprien de Masson and Babuschkin, Igor and Chen, Xinyun and Huang, Po-Sen and Welbl, Johannes and Gowal, Sven and Cherepanov, Alexey and Molloy, James and Mankowitz, Daniel J. and Robson, Esme Sutherland and Kohli, Pushmeet and de Freitas, Nando and Kavukcuoglu, Koray and Vinyals, Oriol},
+  keywords  = {Programming Languages (cs.PL), Artificial Intelligence (cs.AI), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Competition-Level Code Generation with AlphaCode},
+  publisher = {arXiv},
+  year      = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
+@online{moritz2017how,
+  author  = {Neto, Moritz},
+  month   = {12},
+  title   = {How to issue your own token on Ethereum in less than 20 minutes},
+  url     = {https://medium.com/bitfwd/how-to-issue-your-own-token-on-ethereum-in-less-than-20-minutes-ac1f8f022793},
+  urldate = {2022-07-13},
+  year    = {2017}
+}
+
+@online{wolf2021,
+  author  = {Woolf, Max},
+  month   = {6},
+  title   = {Fun and Dystopia With AI-Based Code Generation Using GPT-J-6B},
+  url     = {https://minimaxir.com/2021/06/gpt-j-6b/},
+  urldate = {2022-07-9},
+  year    = {2021}
+}
+
+@online{huggingface,
+  author  = {Hugging Face},
+  month   = {6},
+  title   = {Hugging Face - The AI community building the future},
+  url     = {https://huggingface.co/},
+  urldate = {2022-07-10},
+  year    = {2022}
+}
+
+@online{microsoft,
+  author  = {Microsoft},
+  month   = {6},
+  title   = {Microsoft},
+  url     = {https://www.microsoft.com/about},
+  urldate = {2022-07-10},
+  year    = {2022}
+}
+@online{natspec,
+  author  = {Ethereum},
+  month   = {2},
+  title   = {NatSpec Format},
+  url     = {https://docs.soliditylang.org/en/v0.8.15/natspec-format.html},
+  urldate = {2022-05-10},
+  year    = {2022}
+}
+
+
+@misc{transformers,
+  author  = {Hugging Face},
+  title   = {Transformers},
+  url     = {https://www.antlr.org/index.html},
+  version = {4.19.0.dev0},
+  urldate = {2022-06-10},
+  year    = {2022}
+}
+
+@misc{github-downloader,
+  author  = {EleutherAI},
+  title   = {Download all GitHub repositories},
+  url     = {https://github.com/EleutherAI/github-downloader},
+  urldate = {2022-03-10},
+  year    = {2020}
+}
+
+@misc{gao2021thepile,
+  doi       = {10.48550/ARXIV.2101.00027},
+  url       = {https://arxiv.org/abs/2101.00027},
+  author    = {Gao, Leo and Biderman, Stella and Black, Sid and Golding, Laurence and Hoppe, Travis and Foster, Charles and Phang, Jason and He, Horace and Thite, Anish and Nabeshima, Noa and Presser, Shawn and Leahy, Connor},
+  keywords  = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {The Pile: An 800GB Dataset of Diverse Text for Language Modeling},
+  publisher = {arXiv},
+  year      = {2021},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+@inproceedings{durieux2020empirical,
+author = {Durieux, Thomas and Ferreira, Jo\~{a}o F. and Abreu, Rui and Cruz, Pedro},
+title = {Empirical Review of Automated Analysis Tools on 47,587 Ethereum Smart Contracts},
+year = {2020},
+isbn = {9781450371216},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3377811.3380364},
+doi = {10.1145/3377811.3380364},
+booktitle = {Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering},
+pages = {530–541},
+numpages = {12},
+keywords = {blockchain, reproducible bugs, Ethereum, debugging, solidity, tools, smart contracts, testing},
+location = {Seoul, South Korea},
+series = {ICSE '20}
+}
+
+@misc{devlin2018bert,
+  doi       = {10.48550/ARXIV.1810.04805},
+  url       = {https://arxiv.org/abs/1810.04805},
+  author    = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+  keywords  = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding},
+  publisher = {arXiv},
+  year      = {2018},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@article{radford2018improving,
+  added-at  = {2020-07-14T16:37:42.000+0200},
+  author    = {Radford, Alec and Narasimhan, Karthik and Salimans, Tim and Sutskever, Ilya},
+  biburl    = {https://www.bibsonomy.org/bibtex/273ced32c0d4588eb95b6986dc2c8147c/jonaskaiser},
+  interhash = {5c343ed9a31ac52fd17a898f72af228f},
+  intrahash = {73ced32c0d4588eb95b6986dc2c8147c},
+  keywords  = {final thema:transformer},
+  timestamp = {2020-07-14T16:49:42.000+0200},
+  title     = {Improving language understanding by generative pre-training},
+  year      = 2018
+}
+
+@online{googlebleu,
+  author  = {Google},
+  month   = {7},
+  title   = {Understanding the BLEU Score},
+  url     = {https://cloud.google.com/translate/automl/docs/evaluate#bleu},
+  urldate = {2022-07-14},
+  year    = {2022}
+}
+
+@online{lavie2011evaluating,
+  author  = {Lavie, Alon},
+  month   = {9},
+  title   = {Evaluating the Output of Machine Translation Systems},
+  url     = {https://www.cs.cmu.edu/~alavie/Presentations/MT-Evaluation-MT-Summit-Tutorial-19Sep11.pdf},
+  urldate = {2022-07-14},
+  year    = {2011}
+}
+
+@misc{yang2019xlnet,
+  doi       = {10.48550/ARXIV.1906.08237},
+  url       = {https://arxiv.org/abs/1906.08237},
+  author    = {Yang, Zhilin and Dai, Zihang and Yang, Yiming and Carbonell, Jaime and Salakhutdinov, Ruslan and Le, Quoc V.},
+  keywords  = {Computation and Language (cs.CL), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {XLNet: Generalized Autoregressive Pretraining for Language Understanding},
+  publisher = {arXiv},
+  year      = {2019},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
+@misc{liu2019roberta,
+  doi       = {10.48550/ARXIV.1907.11692},
+  url       = {https://arxiv.org/abs/1907.11692},
+  author    = {Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin},
+  keywords  = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {RoBERTa: A Robustly Optimized BERT Pretraining Approach},
+  publisher = {arXiv},
+  year      = {2019},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@misc{peters2018deep,
+  doi       = {10.48550/ARXIV.1802.05365},
+  url       = {https://arxiv.org/abs/1802.05365},
+  author    = {Peters, Matthew E. and Neumann, Mark and Iyyer, Mohit and Gardner, Matt and Clark, Christopher and Lee, Kenton and Zettlemoyer, Luke},
+  keywords  = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Deep contextualized word representations},
+  publisher = {arXiv},
+  year      = {2018},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+
+@inproceedings{ren2021empirical,
+  author    = {Ren, Meng and Yin, Zijing and Ma, Fuchen and Xu, Zhenyang and Jiang, Yu and Sun, Chengnian and Li, Huizhong and Cai, Yan},
+  title     = {Empirical Evaluation of Smart Contract Testing: What is the Best Choice?},
+  year      = {2021},
+  isbn      = {9781450384599},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/3460319.3464837},
+  doi       = {10.1145/3460319.3464837},
+  booktitle = {Proceedings of the 30th ACM SIGSOFT International Symposium on Software Testing and Analysis},
+  pages     = {566–579},
+  numpages  = {14},
+  keywords  = {smart contract testing, evaluation, observations and solutions},
+  location  = {Virtual, Denmark},
+  series    = {ISSTA 2021}
+}
+
+@misc{pearch2021asleep,
+  doi       = {10.48550/ARXIV.2108.09293},
+  url       = {https://arxiv.org/abs/2108.09293},
+  author    = {Pearce, Hammond and Ahmad, Baleegh and Tan, Benjamin and Dolan-Gavitt, Brendan and Karri, Ramesh},
+  keywords  = {Cryptography and Security (cs.CR), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title     = {Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions},
+  publisher = {arXiv},
+  year      = {2021},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+@misc{yashavant2022scrawld,
+  title         = {ScrawlD: A Dataset of Real World Ethereum Smart Contracts Labelled with Vulnerabilities},
+  author        = {Chavhan Sujeet Yashavant and Saurabh Kumar and Amey Karkare},
+  year          = {2022},
+  eprint        = {2202.11409},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CR}
+}
+
+@inproceedings{Silva2021TowardsAC,
+  title     = {Towards a Comprehensive Understanding and Accurate Evaluation of Societal Biases in Pre-Trained Transformers},
+  author    = {Andrew Silva and Pradyumna Tambwekar and Matthew Craig Gombolay},
+  booktitle = {NAACL},
+  year      = {2021}
+}
+
+@misc{smith2020hidden,
+  title     = {The Hidden Costs of Cybercrime},
+  author    = {Smith, Z.M. and Lostri, E. and McAfee (Firm)},
+  url       = {https://www.csis.org/analysis/hidden-costs-cybercrime},
+  year      = {2020},
+  publisher = {McAfee}
+}
+
+
+
+
+@inproceedings{soldetector,
+  author     = {Tianyuan Hu, Zhenyu Pan, Bixin Li},
+  booktitle  = {Proceedings of the 32rd International Conference on Software Engineering and Knowledge Engineering {SEKE}},
+  pages      = {423-428},
+  title      = {Soldetector: Detect defects based on knowledge graph of solidity smart contract},
+  year       = {2021}
+}
+
+@article{christopoulou2022pangu,
+  title={PanGu-Coder: Program Synthesis with Function-Level Language Modeling},
+  author={Christopoulou, Fenia and Lampouras, Gerasimos and Gritta, Milan and Zhang, Guchun and Guo, Yinpeng and Li, Zhongqi and Zhang, Qi and Xiao, Meng and Shen, Bo and Li, Lin and others},
+  journal={arXiv preprint arXiv:2207.11280},
+  year={2022}
+}
+
+@article{sennrich2015neural,
+  title={Neural machine translation of rare words with subword units},
+  author={Sennrich, Rico and Haddow, Barry and Birch, Alexandra},
+  journal={arXiv preprint arXiv:1508.07909},
+  year={2015}
+}
+
+@inproceedings{CrystalBLEU,
+author = {Eghbali, Aryaz and Pradel, Michael},
+title = {CrystalBLEU: Precisely and Efficiently Measuring the Similarity of Code},
+year = {2023},
+isbn = {9781450394758},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3551349.3556903},
+doi = {10.1145/3551349.3556903},
+abstract = {Recent years have brought a surge of work on predicting pieces of source code, e.g., for code completion, code migration, program repair, or translating natural language into code. All this work faces the challenge of evaluating the quality of a prediction w.r.t. some oracle, typically in the form of a reference solution. A common evaluation metric is the BLEU score, an n-gram-based metric originally proposed for evaluating natural language translation, but adopted in software engineering because it can be easily computed on any programming language and enables automated evaluation at scale. However, a key difference between natural and programming languages is that in the latter, completely unrelated pieces of code may have many common n-grams simply because of the syntactic verbosity and coding conventions of programming languages. We observe that these trivially shared n-grams hamper the ability of the metric to distinguish between truly similar code examples and code examples that are merely written in the same language. This paper presents CrystalBLEU, an evaluation metric based on BLEU, that allows for precisely and efficiently measuring the similarity of code. Our metric preserves the desirable properties of BLEU, such as being language-agnostic, able to handle incomplete or partially incorrect code, and efficient, while reducing the noise caused by trivially shared n-grams. We evaluate CrystalBLEU on two datasets from prior work and on a new, labeled dataset of semantically equivalent programs. Our results show that CrystalBLEU can distinguish similar from dissimilar code examples 1.9–4.5 times more effectively, when compared to the original BLEU score and a previously proposed variant of BLEU for code.},
+booktitle = {Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering},
+articleno = {28},
+numpages = {12},
+keywords = {Evaluation, BLEU, Metric},
+location = {Rochester, MI, USA},
+series = {ASE '22}
+}
+
+@online{Bleuscore,
+  url       = {https://towardsdatascience.com/foundations-of-nlp-explained-bleu-score-and-wer-metrics-1a5ba06d812b.},
+  title     = {Foundations of NLP explained},
+  year    = {2021}
+}
+
+
+@online{EmpiricalStandards,
+  url       = {https://acmsigsoft.github.io/EmpiricalStandards/tools/},
+  title     = {Empirical Standards},
+  year    = {2022}
+}
+
+@online{CVE,
+  url       = {https://cve.mitre.org/},
+  title     = {CVE},
+  year    = {2022}
+}
+
+@online{Decrypted,
+  url       = {https://decrypted-ai.chronologic.network/)},
+  title     = {Decrypted},
+  year    = {2022}
+}
+
+@ARTICLE{DefectChecker,
+	author={Chen, Jiachi and Xia, Xin and Lo, David and Grundy, John and Luo, Xiapu and Chen, Ting},
+	journal={IEEE Transactions on Software Engineering}, 
+	title={DEFECTCHECKER: Automated Smart Contract Defect Detection by Analyzing EVM Bytecode}, 
+	year={2021},
+	volume={},
+	number={},
+	pages={1-1},
+	doi={10.1109/TSE.2021.3054928}}
+
+@inproceedings{allamanis_adverse_2019,
+	title = {The adverse effects of code duplication in machine learning models of code},
+	booktitle = {Proceedings of the 2019 {ACM} {SIGPLAN} {International} {Symposium} on {New} {Ideas}, {New} {Paradigms}, and {Reflections} on {Programming} and {Software}},
+	author = {Allamanis, Miltiadis},
+	year = {2019},
+	pages = {143--153},
+	file = {Allamanis - 2019 - The adverse effects of code duplication in machine.pdf:C\:\\Users\\Andre\\Zotero\\storage\\IPYQZF5A\\Allamanis - 2019 - The adverse effects of code duplication in machine.pdf:application/pdf},
+}
+
+
+@article{yuan2022deep,
+  title={Deep Neural Embedding for Software Vulnerability Discovery: Comparison and Optimization},
+  author={Yuan, Xue and Lin, Guanjun and Tai, Yonghang and Zhang, Jun},
+  journal={Security and Communication Networks},
+  volume={2022},
+  year={2022},
+  publisher={Hindawi}
+}
+
+@misc{zimens2021security,
+  doi = {10.48550/ARXIV.2105.02388},
+  url = {https://arxiv.org/abs/2105.02388},
+  author = {Ziems, Noah and Wu, Shaoen},
+  keywords = {Cryptography and Security (cs.CR), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Security Vulnerability Detection Using Deep Learning Natural Language Processing},
+  publisher = {arXiv},
+  year = {2021},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
+@inproceedings{macqueen1967classification,
+  title={Classification and analysis of multivariate observations},
+  author={MacQueen, J},
+  booktitle={5th Berkeley Symp. Math. Statist. Probability},
+  pages={281--297},
+  year={1967}
+}
+
+@inproceedings{humaira2020determining,
+  title={Determining the appropiate cluster number using Elbow method for K-Means algorithm},
+  author={Humaira, H and Rasyidah, R},
+  booktitle={Proceedings of the 2nd Workshop on Multidisciplinary and Applications (WMA)},
+  year={2020}
+}
+@article{Hu2023,
+author = "Tianyuan Hu and Jingyue Li and Bixin Li and André Storhaug",
+title = "{Why Smart Contracts Reported as Vulnerable were not Exploited?}",
+year = "2023",
+month = "3",
+url = "https://www.techrxiv.org/articles/preprint/Why_Smart_Contracts_Reported_as_Vulnerable_were_not_Exploited_/21953189",
+doi = "10.36227/techrxiv.21953189.v2"              
+}
+
+
+@Inbook{Rokach2005,
+author="Rokach, Lior
+and Maimon, Oded",
+editor="Maimon, Oded
+and Rokach, Lior",
+title="Clustering Methods",
+bookTitle="Data Mining and Knowledge Discovery Handbook",
+year="2005",
+publisher="Springer US",
+address="Boston, MA",
+pages="321--352",
+abstract="This chapter presents a tutorial overview of the main clustering methods used in Data Mining. The goal is to provide a self-contained review of the concepts and the mathematics underlying clustering techniques. The chapter begins by providing measures and criteria that are used for determining whether two objects are similar or dissimilar. Then the clustering methods are presented, divided into: hierarchical, partitioning, density-based, model-based, grid-based, and soft-computing methods. Following the methods, the challenges of performing clustering in large data sets are discussed. Finally, the chapter presents how to determine the number of clusters.",
+isbn="978-0-387-25465-4",
+doi="10.1007/0-387-25465-X_15",
+url="https://doi.org/10.1007/0-387-25465-X_15"
+}
+
+@article{porter1980algorithm,
+  title={An algorithm for suffix stripping},
+  author={Porter, Martin F},
+  journal={Program},
+  year={1980},
+  publisher={MCB UP Ltd}
+}
+
+@inproceedings{solidifi,
+	title={How effective are smart contract analysis tools? evaluating smart contract static analysis tools using bug injection},
+	author={ Ghaleb, Asem  and  Pattabiraman, Karthik },
+	booktitle={ISSTA '20: 29th ACM SIGSOFT International Symposium on Software Testing and Analysis},
+	year={2020},
+}
+
+@inproceedings{EmpiricalOnSmartBug,
+	author = {Durieux, Thomas and Ferreira, Jo\~{a}o F. and Abreu, Rui and Cruz, Pedro},
+	title = {Empirical Review of Automated Analysis Tools on 47,587 Ethereum Smart Contracts},
+	year = {2020},
+	isbn = {9781450371216},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3377811.3380364},
+	doi = {10.1145/3377811.3380364},
+	booktitle = {Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering},
+	pages = {530-541},
+	numpages = {12},
+	keywords = {tools, debugging, reproducible bugs, Ethereum, smart contracts, blockchain, solidity, testing},
+	location = {Seoul, South Korea},
+	series = {ICSE'20}
+}
+
+@inproceedings{Freitag_2017,
+	doi = {10.18653/v1/w17-3207},
+	url = {https://doi.org/10.18653/v1/w17-3207},
+	year = 2017,
+	publisher = {Association for Computational Linguistics},
+	author = {Markus Freitag and Yaser Al-Onaizan},
+	title = {Beam Search Strategies for Neural Machine Translation},
+	booktitle = {Proceedings of the First Workshop on Neural Machine Translation}
+}
+
+@inproceedings{feist2019slither,
+  title={Slither: a static analysis framework for smart contracts},
+  author={Feist, Josselin and Grieco, Gustavo and Groce, Alex},
+  booktitle={2019 IEEE/ACM 2nd International Workshop on Emerging Trends in Software Engineering for Blockchain (WETSEB)},
+  pages={8--15},
+  year={2019},
+  organization={IEEE}
+}
+
+@electronic{mythril,
+	title         = "Mythril: an open-source security analysis tool for Ethereum smart contracts",
+	url           =  "https://github.com/ConsenSys/mythril",
+	year          = "2018",
+}
+
+@inproceedings{ContractFuzzer,        
+author = {Jiang, Bo and Liu, Ye and Chan, W. K.},
+title = {ContractFuzzer: Fuzzing Smart Contracts for Vulnerability Detection},
+year = {2018},
+isbn = {9781450359375},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3238147.3238177},                                                                     
+doi = {10.1145/3238147.3238177},                                                                       
+pages = {259–269},
+numpages = {11},
+keywords = {Fuzzing, Vulnerability, Test oracle, Ethereum, Fuzzer, Blockchain, Smart contract},
+location = {Montpellier, France},
+series = {ASE '18}
+}
+
+@inproceedings{sFuzz,            
+author = {Nguyen, Tai D. and Pham, Long H. and Sun, Jun and Lin, Yun and Minh, Quang Tran},
+title = {SFuzz: An Efficient Adaptive Fuzzer for Solidity Smart Contracts},
+year = {2020},
+isbn = {9781450371216},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3377811.3380334},                                                      
+doi = {10.1145/3377811.3380334},                                                  
+booktitle = {Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering},
+pages = {778–788},
+numpages = {11},
+location = {Seoul, South Korea},
+series = {ICSE '20}
+}
+@INPROCEEDINGS{SMARTIAN,
+  author={Choi, Jaeseung and Kim, Doyeon and Kim, Soomin and Grieco, Gustavo and Groce, Alex and Cha, Sang Kil},
+  booktitle={2021 36th IEEE/ACM International Conference on Automated Software Engineering (ASE)}, 
+  title={SMARTIAN: Enhancing Smart Contract Fuzzing with Static and Dynamic Data-Flow Analyses}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={227-239},
+  doi={10.1109/ASE51524.2021.9678888}}        
+
+
+@inproceedings{hokamp2017lexically,
+    title = "Lexically Constrained Decoding for Sequence Generation Using Grid Beam Search",
+    author = "Hokamp, Chris  and
+      Liu, Qun",
+    booktitle = "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2017",
+    address = "Vancouver, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P17-1141",
+    doi = "10.18653/v1/P17-1141",
+    pages = "1535--1546",
+}
+
+@inproceedings{post2018fast,
+    title = "Fast Lexically Constrained Decoding with Dynamic Beam Allocation for Neural Machine Translation",
+    author = "Post, Matt  and
+      Vilar, David",
+    booktitle = "Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
+    month = jun,
+    year = "2018",
+    address = "New Orleans, Louisiana",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N18-1119",
+    doi = "10.18653/v1/N18-1119",
+    pages = "1314--1324"
+}
+
+@inproceedings{hu2019improved,
+    title = "Improved Lexically Constrained Decoding for Translation and Monolingual Rewriting",
+    author = "Hu, J. Edward  and
+      Khayrallah, Huda  and
+      Culkin, Ryan  and
+      Xia, Patrick  and
+      Chen, Tongfei  and
+      Post, Matt  and
+      Van Durme, Benjamin",
+    booktitle = "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    month = jun,
+    year = "2019",
+    address = "Minneapolis, Minnesota",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/N19-1090",
+    doi = "10.18653/v1/N19-1090",
+    pages = "839--850"
+}
+
+@misc{khoury2023secure,
+      title={How Secure is Code Generated by ChatGPT?}, 
+      author={Raphaël Khoury and Anderson R. Avila and Jacob Brunelle and Baba Mamadou Camara},
+      year={2023},
+      eprint={2304.09655},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
+
+@misc{ouyang2022training,
+      title={Training language models to follow instructions with human feedback}, 
+      author={Long Ouyang and Jeff Wu and Xu Jiang and Diogo Almeida and Carroll L. Wainwright and Pamela Mishkin and Chong Zhang and Sandhini Agarwal and Katarina Slama and Alex Ray and John Schulman and Jacob Hilton and Fraser Kelton and Luke Miller and Maddie Simens and Amanda Askell and Peter Welinder and Paul Christiano and Jan Leike and Ryan Lowe},
+      year={2022},
+      eprint={2203.02155},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{derner2023safeguards,
+      title={Beyond the Safeguards: Exploring the Security Risks of ChatGPT}, 
+      author={Erik Derner and Kristina Batistič},
+      year={2023},
+      eprint={2305.08005},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
+
+@online{chatgpt,
+  author = {OpenAI},
+  title = {Introducing ChatGPT},
+  year = {2022},
+  month   = {1},
+  url = {https://openai.com/blog/chatgpt},
+  urldate = {2023-05-01}
+}
+
+@online{securitycopilot,
+  author = {Microsoft},
+  title = {Introducing Microsoft Security Copilot: Empowering defenders at the speed of AI},
+  year = {2023},
+  month   = {3},
+  url = {https://blogs.microsoft.com/blog/2023/03/28/introducing-microsoft-security-copilot-empowering-defenders-at-the-speed-of-ai/},
+  urldate = {2023-06-01}
+}
+
+@misc{shojaee2023executionbased,
+      title={Execution-based Code Generation using Deep Reinforcement Learning}, 
+      author={Parshin Shojaee and Aneesh Jain and Sindhu Tipirneni and Chandan K. Reddy},
+      year={2023},
+      eprint={2301.13816},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{le2022coderl,
+      title={CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning}, 
+      author={Hung Le and Yue Wang and Akhilesh Deepak Gotmare and Silvio Savarese and Steven C. H. Hoi},
+      year={2022},
+      eprint={2207.01780},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{janner2021offline,
+      title={Offline Reinforcement Learning as One Big Sequence Modeling Problem}, 
+      author={Michael Janner and Qiyang Li and Sergey Levine},
+      year={2021},
+      eprint={2106.02039},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+
+@misc{securebyconstruction,
+      title={Secure-by-Construction Synthesis of Cyber-Physical Systems}, 
+      author={Siyuan Liu and Ashutosh Trivedi and Xiang Yin and Majid Zamani},
+      year={2022},
+      eprint={2202.06677},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR}
+}
+
+
+
+
+
+
+
+################# PAPER 2 ####################
+
+
+%% This BibTeX bibliography file was created using BibDesk.
+%% https://bibdesk.sourceforge.io/
+
+%% Created for André Storhaug at 2025-02-25 18:09:39 +1100 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+@inproceedings{Papineni2002BleuAM,
+author = {Papineni, Kishore and Roukos, Salim and Ward, Todd and Zhu, Wei-Jing},
+title = {BLEU: a method for automatic evaluation of machine translation},
+year = {2002},
+publisher = {Association for Computational Linguistics},
+address = {USA},
+url = {https://doi.org/10.3115/1073083.1073135},
+doi = {10.3115/1073083.1073135},
+booktitle = {Proceedings of the 40th Annual Meeting on Association for Computational Linguistics},
+pages = {311–318},
+numpages = {8},
+location = {Philadelphia, Pennsylvania},
+series = {ACL '02}
+}
+
+@misc{siddiq2024using,
+      title={Using Large Language Models to Generate JUnit Tests: An Empirical Study}, 
+      author={Mohammed Latif Siddiq and Joanna C. S. Santos and Ridwanul Hasan Tanvir and Noshin Ulfat and Fahmid Al Rifat and Vinicius Carvalho Lopes},
+      year={2024},
+      eprint={2305.00418},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+
+@inproceedings{Zheng2023CodeGeeXAP,
+author = {Zheng, Qinkai and Xia, Xiao and Zou, Xu and Dong, Yuxiao and Wang, Shan and Xue, Yufei and Shen, Lei and Wang, Zihan and Wang, Andi and Li, Yang and Su, Teng and Yang, Zhilin and Tang, Jie},
+title = {CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Benchmarking on HumanEval-X},
+year = {2023},
+isbn = {9798400701030},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3580305.3599790},
+doi = {10.1145/3580305.3599790},
+pages = {5673–5684},
+numpages = {12},
+keywords = {code generation, large language model, pre-trained model},
+location = {Long Beach, CA, USA},
+series = {KDD '23}
+}
+
+@INPROCEEDINGS {Liu2023AnES,
+author = {J. Liu and C. Sha and X. Peng},
+booktitle = {2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+title = {An Empirical Study of Parameter-Efficient Fine-Tuning Methods for Pre-Trained Code Models},
+year = {2023},
+volume = {},
+issn = {},
+pages = {397-408},
+keywords = {training;adaptation models;codes;costs;computational modeling;transfer learning;memory management},
+doi = {10.1109/ASE56229.2023.00125},
+url = {https://doi.ieeecomputersociety.org/10.1109/ASE56229.2023.00125},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = sep
+}
+
+@article{Rozire2023CodeLO,
+  title={Code Llama: Open Foundation Models for Code},
+  author={Baptiste Rozi{\`e}re and Jonas Gehring and Fabian Gloeckle and Sten Sootla and Itai Gat and Xiaoqing Tan and Yossi Adi and Jingyu Liu and Tal Remez and J{\'e}r{\'e}my Rapin and Artyom Kozhevnikov and I. Evtimov and Joanna Bitton and Manish P Bhatt and Cristian Cant{\'o}n Ferrer and Aaron Grattafiori and Wenhan Xiong and Alexandre D'efossez and Jade Copet and Faisal Azhar and Hugo Touvron and Louis Martin and Nicolas Usunier and Thomas Scialom and Gabriel Synnaeve},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2308.12950}
+}
+
+@article{nijkamp2022codegen,
+  title={CodeGen: An Open Large Language Model for Code with Multi-Turn Program Synthesis},
+  author={Nijkamp, Erik and Pang, Bo and Hayashi, Hiroaki and Tu, Lifu and Wang, Huan and Zhou, Yingbo and Savarese, Silvio and Xiong, Caiming},
+  journal={ICLR},
+  year={2023}
+}
+
+@article{Pu2023EmpiricalAO,
+  title={Empirical Analysis of the Strengths and Weaknesses of PEFT Techniques for LLMs},
+  author={George Pu and Anirudh Jain and Jihan Yin and Russell Kaplan},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2304.14999}
+}
+
+@software{java-antlr4,
+  author  = {Terence Parr and Sam Harwell and Ivan Kochurkin and Michał Lorek},
+  title   = {Java Antlr Grammar},
+  url     = {https://github.com/antlr/grammars-v4/tree/master/java/java},
+  license = {BSD license},
+  repository= {https://github.com/antlr/grammars-v4},
+  urldate = {2024-05-10},
+  year    = {2023}
+}
+
+@article{Chen2021EvaluatingLL,
+  title={Evaluating Large Language Models Trained on Code},
+  author={Mark Chen and Jerry Tworek and Heewoo Jun and Qiming Yuan and Henrique Ponde and Jared Kaplan and Harrison Edwards and Yura Burda and Nicholas Joseph and Greg Brockman and Alex Ray and Raul Puri and Gretchen Krueger and Michael Petrov and Heidy Khlaaf and Girish Sastry and Pamela Mishkin and Brooke Chan and Scott Gray and Nick Ryder and Mikhail Pavlov and Alethea Power and Lukasz Kaiser and Mohammad Bavarian and Clemens Winter and Philippe Tillet and Felipe Petroski Such and David W. Cummings and Matthias Plappert and Fotios Chantzis and Elizabeth Barnes and Ariel Herbert-Voss and William H. Guss and Alex Nichol and Igor Babuschkin and Suchir Balaji and Shantanu Jain and Andrew Carr and Jan Leike and Joshua Achiam and Vedant Misra and Evan Morikawa and Alec Radford and Matthew M. Knight and Miles Brundage and Mira Murati and Katie Mayer and Peter Welinder and Bob McGrew and Dario Amodei and Sam McCandlish and Ilya Sutskever and Wojciech Zaremba},
+  journal={ArXiv},
+  year={2021},
+  volume={abs/2107.03374}
+}
+
+@inproceedings{Shi2023TowardsEF,
+author = {Shi, Ensheng and Wang, Yanlin and Zhang, Hongyu and Du, Lun and Han, Shi and Zhang, Dongmei and Sun, Hongbin},
+title = {Towards Efficient Fine-Tuning of Pre-trained Code Models: An Experimental Study and Beyond},
+year = {2023},
+isbn = {9798400702211},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3597926.3598036},
+doi = {10.1145/3597926.3598036},
+booktitle = {Proceedings of the 32nd ACM SIGSOFT International Symposium on Software Testing and Analysis},
+pages = {39–51},
+numpages = {13},
+keywords = {Representational Similarity Analysis, Probing Techniques, Pre-Trained Language Models, Empirical study, Efficient Fine-tuning},
+location = {Seattle, WA, USA, },
+series = {ISSTA 2023}
+}
+
+@INPROCEEDINGS{Yu2023LowRankAO,
+  author={Yu, Yu and Yang, Chao-Han Huck and Kolehmainen, Jari and Shivakumar, Prashanth G. and Gu, Yile and Ren, Sungho Ryu Roger and Luo, Qi and Gourav, Aditya and Chen, I-Fan and Liu, Yi-Chieh and Dinh, Tuan and Filimonov, Ankur Gandhe Denis and Ghosh, Shalini and Stolcke, Andreas and Rastow, Ariya and Bulyko, Ivan},
+  booktitle={2023 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)}, 
+  title={Low-Rank Adaptation of Large Language Model Rescoring for Parameter-Efficient Speech Recognition}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Training;Degradation;Adaptation models;Costs;Computational modeling;Conferences;Computer architecture;Low-rank adaptation;neural language model rescoring;parameter-efficient speech recognition},
+  doi={10.1109/ASRU57964.2023.10389632}
+}
+
+@inproceedings{li-liang-2021-prefix,
+    title = "Prefix-Tuning: Optimizing Continuous Prompts for Generation",
+    author = "Li, Xiang Lisa  and
+      Liang, Percy",
+    editor = "Zong, Chengqing  and
+      Xia, Fei  and
+      Li, Wenjie  and
+      Navigli, Roberto",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.353",
+    doi = "10.18653/v1/2021.acl-long.353",
+    pages = "4582--4597"
+}
+
+@article{Luo2023AnES,
+  title={An Empirical Study of Catastrophic Forgetting in Large Language Models During Continual Fine-tuning},
+  author={Yun Luo and Zhen Yang and Fandong Meng and Yafu Li and Jie Zhou and Yue Zhang},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2308.08747}
+}
+
+@INPROCEEDINGS{Gonzalez2017ALS,
+  author={Gonzalez, Danielle and Santos, Joanna C.S. and Popovich, Andrew and Mirakhorli, Mehdi and Nagappan, Mei},
+  booktitle={2017 IEEE/ACM 14th International Conference on Mining Software Repositories (MSR)}, 
+  title={A Large-Scale Study on the Usage of Testing Patterns That Address Maintainability Attributes: Patterns for Ease of Modification, Diagnoses, and Comprehension}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={391-401},
+  keywords={Testing;Measurement;Production;Writing;Software;Maintenance engineering;Context;Unit Testing;Maintenance;Open Source;Mining Software Repositories;Unit Test Patterns;Unit Test Frameworks},
+  doi={10.1109/MSR.2017.8}
+}
+
+@misc{yuan2023evaluating,
+      title={Evaluating Instruction-Tuned Large Language Models on Code Comprehension and Generation}, 
+      author={Zhiqiang Yuan and Junwei Liu and Qiancheng Zi and Mingwei Liu and Xin Peng and Yiling Lou},
+      year={2023},
+      eprint={2308.01240},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@misc{lialin2023scaling,
+      title={Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning}, 
+      author={Vladislav Lialin and Vijeta Deshpande and Anna Rumshisky},
+      year={2023},
+      eprint={2303.15647},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@INPROCEEDINGS {7102609,
+author = {P. Kochhar and F. Thung and N. Nagappan and T. Zimmermann and D. Lo},
+booktitle = {2015 IEEE 8th International Conference on Software Testing, Verification and Validation (ICST)},
+title = {Understanding the Test Automation Culture of App Developers},
+year = {2015},
+volume = {},
+issn = {},
+pages = {1-10},
+keywords = {testing;androids;humanoid robots;automation;face;electronic mail},
+doi = {10.1109/ICST.2015.7102609},
+url = {https://doi.ieeecomputersociety.org/10.1109/ICST.2015.7102609},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = apr
+}
+
+@article{Lozhkov2024StarCoder2A,
+  title={StarCoder 2 and The Stack v2: The Next Generation},
+  author={Anton Lozhkov and Raymond Li and Loubna Ben Allal and Federico Cassano and Joel Lamy-Poirier and Nouamane Tazi and Ao Tang and Dmytro Pykhtar and Jiawei Liu and Yuxiang Wei and Tianyang Liu and Max Tian and Denis Kocetkov and Arthur Zucker and Younes Belkada and Zijian Wang and Qian Liu and Dmitry Abulkhanov and Indraneil Paul and Zhuang Li and Wen-Ding Li and Megan L. Risdal and Jia Li and Jian Zhu and Terry Yue Zhuo and Evgenii Zheltonozhskii and Nii Osae Osae Dade and W. Yu and Lucas Krauss and Naman Jain and Yixuan Su and Xuanli He and Manan Dey and Edoardo Abati and Yekun Chai and Niklas Muennighoff and Xiangru Tang and Muhtasham Oblokulov and Christopher Akiki and Marc Marone and Chenghao Mou and Mayank Mishra and Alexander Gu and Binyuan Hui and Tri Dao and Armel Zebaze and Olivier Dehaene and Nicolas Patry and Canwen Xu and Julian McAuley and Han Hu and Torsten Scholak and S{\'e}bastien Paquet and Jennifer Robinson and Carolyn Jane Anderson and Nicolas Chapados and Mostofa Patwary and Nima Tajbakhsh and Yacine Jernite and Carlos Mu{\~n}oz Ferrandis and Lingming Zhang and Sean Hughes and Thomas Wolf and Arjun Guha and Leandro von Werra and Harm de Vries},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2402.19173}
+}
+
+@Misc{peft,
+  title =        {PEFT: State-of-the-art Parameter-Efficient Fine-Tuning methods},
+  author =       {Sourab Mangrulkar and Sylvain Gugger and Lysandre Debut and Younes Belkada and Sayak Paul and Benjamin Bossan},
+  howpublished = {\url{https://github.com/huggingface/peft}},
+  year =         {2022}
+}
+
+@misc{schäfer2023empirical,
+      title={An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation}, 
+      author={Max Schäfer and Sarah Nadi and Aryaz Eghbali and Frank Tip},
+      year={2023},
+      eprint={2302.06527},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+
+@article{Liu2023MFTCoderBC,
+  title={MFTCoder: Boosting Code LLMs with Multitask Fine-Tuning},
+  author={Bingchang Liu and Chaoyu Chen and Cong Liao and Zi Gong and Huan Wang and Zhichao Lei and Ming Liang and Dajun Chen and Min Shen and Hailian Zhou and Hang Yu and Jianguo Li},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2311.02303}
+}
+
+@article{French1999CatastrophicFI,
+  title={Catastrophic forgetting in connectionist networks},
+  author={Robert M. French},
+  journal={Trends in Cognitive Sciences},
+  year={1999},
+  volume={3},
+  pages={128-135}
+}
+
+@misc{steenhoek2023reinforcement,
+      title={Reinforcement Learning from Automatic Feedback for High-Quality Unit Test Generation}, 
+      author={Benjamin Steenhoek and Michele Tufano and Neel Sundaresan and Alexey Svyatkovskiy},
+      year={2023},
+      eprint={2310.02368},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+
+@INPROCEEDINGS{Wang2023OneAF,
+  author={Wang, Deze and Chen, Boxing and Li, Shanshan and Luo, Wei and Peng, Shaoliang and Dong, Wei and Liao, Xiangke},
+  booktitle={2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)}, 
+  title={One Adapter for All Programming Languages? Adapter Tuning for Code Search and Summarization}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={5-16},
+  keywords={Degradation;Training;Adaptation models;Computer languages;Codes;Source coding;Transfer learning;transfer learning;adapter;multilingual task},
+  doi={10.1109/ICSE48619.2023.00013}
+}
+
+@InProceedings{houlsby2019parameter,
+  title = 	 {Parameter-Efficient Transfer Learning for {NLP}},
+  author =       {Houlsby, Neil and Giurgiu, Andrei and Jastrzebski, Stanislaw and Morrone, Bruna and De Laroussilhe, Quentin and Gesmundo, Andrea and Attariyan, Mona and Gelly, Sylvain},
+  booktitle = 	 {Proceedings of the 36th International Conference on Machine Learning},
+  pages = 	 {2790--2799},
+  year = 	 {2019},
+  editor = 	 {Chaudhuri, Kamalika and Salakhutdinov, Ruslan},
+  volume = 	 {97},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 Jun,
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v97/houlsby19a/houlsby19a.pdf},
+  url = 	 {https://proceedings.mlr.press/v97/houlsby19a.html}
+}
+
+@inproceedings{bojar2018call,
+    title = "A Call for Clarity in Reporting {BLEU} Scores",
+    author = "Post, Matt",
+    editor = "Bojar, Ond{\v{r}}ej  and
+      Chatterjee, Rajen  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Graham, Yvette  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Yepes, Antonio Jimeno  and
+      Koehn, Philipp  and
+      Monz, Christof  and
+      Negri, Matteo  and
+      N{\'e}v{\'e}ol, Aur{\'e}lie  and
+      Neves, Mariana  and
+      Post, Matt  and
+      Specia, Lucia  and
+      Turchi, Marco  and
+      Verspoor, Karin",
+    booktitle = "Proceedings of the Third Conference on Machine Translation: Research Papers",
+    month = oct,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W18-6319/",
+    doi = "10.18653/v1/W18-6319",
+    pages = "186--191",
+    abstract = "The field of machine translation faces an under-recognized problem because of inconsistency in the reporting of scores from its dominant metric. Although people refer to ``the'' BLEU score, BLEU is in fact a parameterized metric whose values can vary wildly with changes to these parameters. These parameters are often not reported or are hard to find, and consequently, BLEU scores between papers cannot be directly compared. I quantify this variation, finding differences as high as 1.8 between commonly used configurations. The main culprit is different tokenization and normalization schemes applied to the reference. Pointing to the success of the parsing community, I suggest machine translation researchers settle upon the BLEU scheme used by the annual Conference on Machine Translation (WMT), which does not allow for user-supplied reference processing, and provide a new tool, SACREBLEU, to facilitate this."
+}
+
+@inproceedings{Lester2021ThePO,
+    title = "The Power of Scale for Parameter-Efficient Prompt Tuning",
+    author = "Lester, Brian  and
+      Al-Rfou, Rami  and
+      Constant, Noah",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.243",
+    doi = "10.18653/v1/2021.emnlp-main.243",
+    pages = "3045--3059"
+}
+
+@article{alagarsamy2024a3test,
+    author = {Alagarsamy, Saranya and Tantithamthavorn, Chakkrit and Aleti, Aldeida},
+    title = {A3Test: Assertion-Augmented Automated Test case generation},
+    year = {2024},
+    issue_date = {Dec 2024},
+    publisher = {Butterworth-Heinemann},
+    address = {USA},
+    volume = {176},
+    number = {C},
+    issn = {0950-5849},
+    url = {https://doi.org/10.1016/j.infsof.2024.107565},
+    doi = {10.1016/j.infsof.2024.107565},
+    journal = {Inf. Softw. Technol.},
+    month = dec,
+    numpages = {15},
+    keywords = {Test case generation, Deep learning}
+}
+
+@article{Touvron2023Llama2O,
+  title={Llama 2: Open Foundation and Fine-Tuned Chat Models},
+  author={Hugo Touvron and Louis Martin and Kevin R. Stone and Peter Albert and Amjad Almahairi and Yasmine Babaei and Nikolay Bashlykov and Soumya Batra and Prajjwal Bhargava and Shruti Bhosale and Daniel M. Bikel and Lukas Blecher and Cristian Cant{\'o}n Ferrer and Moya Chen and Guillem Cucurull and David Esiobu and Jude Fernandes and Jeremy Fu and Wenyin Fu and Brian Fuller and Cynthia Gao and Vedanuj Goswami and Naman Goyal and Anthony S. Hartshorn and Saghar Hosseini and Rui Hou and Hakan Inan and Marcin Kardas and Viktor Kerkez and Madian Khabsa and Isabel M. Kloumann and A. V. Korenev and Punit Singh Koura and Marie-Anne Lachaux and Thibaut Lavril and Jenya Lee and Diana Liskovich and Yinghai Lu and Yuning Mao and Xavier Martinet and Todor Mihaylov and Pushkar Mishra and Igor Molybog and Yixin Nie and Andrew Poulton and Jeremy Reizenstein and Rashi Rungta and Kalyan Saladi and Alan Schelten and Ruan Silva and Eric Michael Smith and R. Subramanian and Xia Tan and Binh Tang and Ross Taylor and Adina Williams and Jian Xiang Kuan and Puxin Xu and Zhengxu Yan and Iliyan Zarov and Yuchen Zhang and Angela Fan and Melanie Kambadur and Sharan Narang and Aurelien Rodriguez and Robert Stojnic and Sergey Edunov and Thomas Scialom},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2307.09288}
+}
+
+@INPROCEEDINGS{Mastropaolo2021StudyingTU,
+  author={Mastropaolo, Antonio and Scalabrino, Simone and Cooper, Nathan and Nader Palacio, David and Poshyvanyk, Denys and Oliveto, Rocco and Bavota, Gabriele},
+  booktitle={2021 IEEE/ACM 43rd International Conference on Software Engineering (ICSE)}, 
+  title={Studying the Usage of Text-To-Text Transfer Transformer to Support Code-Related Tasks}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={336-347},
+  keywords={Deep learning;Computer bugs;Natural language processing;Software;Filling;Task analysis;Software engineering;Empirical software engineering;Deep Learning},
+  doi={10.1109/ICSE43902.2021.00041}
+}
+
+@article{nijkamp2023codegen2,
+  title={CodeGen2: Lessons for Training LLMs on Programming and Natural Languages},
+  author={Nijkamp, Erik and Hayashi, Hiroaki and Xiong, Caiming and Savarese, Silvio and Zhou, Yingbo},
+  journal={ICLR},
+  year={2023}
+}
+
+@article{Wang2023PromptTI,
+  title={Prompt Tuning in Code Intelligence: An Experimental Evaluation},
+  author={Chaozheng Wang and Yuanhang Yang and Cuiyun Gao and Yun Peng and Hongyu Zhang and Michael R. Lyu},
+  journal={IEEE Transactions on Software Engineering},
+  year={2023},
+  volume={49},
+  pages={4869-4885}
+}
+
+@misc{tufano2021unit,
+      title={Unit Test Case Generation with Transformers and Focal Context}, 
+      author={Michele Tufano and Dawn Drain and Alexey Svyatkovskiy and Shao Kun Deng and Neel Sundaresan},
+      year={2021},
+      eprint={2009.05617},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+
+@article{Ding2023ParameterefficientFO,
+  title={Parameter-efficient fine-tuning of large-scale pre-trained language models},
+  author={Ning Ding and Yujia Qin and Guang Yang and Fu Wei and Zonghan Yang and Yusheng Su and Shengding Hu and Yulin Chen and Chi-Min Chan and Weize Chen and Jing Yi and Weilin Zhao and Xiaozhi Wang and Zhiyuan Liu and Haitao Zheng and Jianfei Chen and Y. Liu and Jie Tang and Juanzi Li and Maosong Sun},
+  journal={Nature Machine Intelligence},
+  year={2023},
+  volume={5},
+  pages={220-235},
+  url={https://api.semanticscholar.org/CorpusID:257316425}
+}
+
+@inproceedings{just2014defects4j,
+    author = {Just, Ren\'{e} and Jalali, Darioush and Ernst, Michael D.},
+    title = {Defects4J: a database of existing faults to enable controlled testing studies for Java programs},
+    year = {2014},
+    isbn = {9781450326452},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/2610384.2628055},
+    doi = {10.1145/2610384.2628055},
+    abstract = {Empirical studies in software testing research may not be comparable, reproducible, or characteristic of practice. One reason is that real bugs are too infrequently used in software testing research. Extracting and reproducing real bugs is challenging and as a result hand-seeded faults or mutants are commonly used as a substitute. This paper presents Defects4J, a database and extensible framework providing real bugs to enable reproducible studies in software testing research. The initial version of Defects4J contains 357 real bugs from 5 real-world open source pro- grams. Each real bug is accompanied by a comprehensive test suite that can expose (demonstrate) that bug. Defects4J is extensible and builds on top of each program’s version con- trol system. Once a program is configured in Defects4J, new bugs can be added to the database with little or no effort. Defects4J features a framework to easily access faulty and fixed program versions and corresponding test suites. This framework also provides a high-level interface to common tasks in software testing research, making it easy to con- duct and reproduce empirical studies. Defects4J is publicly available at http://defects4j.org.},
+    booktitle = {Proceedings of the 2014 International Symposium on Software Testing and Analysis},
+    pages = {437–440},
+    numpages = {4},
+    keywords = {testing framework, real bugs, Bug database},
+    location = {San Jose, CA, USA},
+    series = {ISSTA 2014}
+}
+
+@misc{yuan2023manual,
+      title={No More Manual Tests? Evaluating and Improving ChatGPT for Unit Test Generation}, 
+      author={Zhiqiang Yuan and Yiling Lou and Mingwei Liu and Shiji Ding and Kaixin Wang and Yixuan Chen and Xin Peng},
+      year={2023},
+      eprint={2305.04207},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+
+@article{Kocetkov2022TheStack,
+  title={The Stack: 3 TB of permissively licensed source code},
+  author={Kocetkov, Denis and Li, Raymond and Ben Allal, Loubna and Li, Jia and Mou,Chenghao and Muñoz Ferrandis, Carlos and Jernite, Yacine and Mitchell, Margaret and Hughes, Sean and Wolf, Thomas and Bahdanau, Dzmitry and von Werra, Leandro and de Vries, Harm},
+  journal={Preprint},
+  year={2022}
+}
+
+@misc{gao2020pile,
+      title={The Pile: An 800GB Dataset of Diverse Text for Language Modeling}, 
+      author={Leo Gao and Stella Biderman and Sid Black and Laurence Golding and Travis Hoppe and Charles Foster and Jason Phang and Horace He and Anish Thite and Noa Nabeshima and Shawn Presser and Connor Leahy},
+      year={2020},
+      eprint={2101.00027},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@ARTICLE{mam,
+       author = {{He}, Junxian and {Zhou}, Chunting and {Ma}, Xuezhe and {Berg-Kirkpatrick}, Taylor and {Neubig}, Graham},
+        title = "{Towards a Unified View of Parameter-Efficient Transfer Learning}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Computation and Language, Computer Science - Machine Learning},
+         year = 2021,
+        month = oct,
+          eid = {arXiv:2110.04366},
+        pages = {arXiv:2110.04366},
+          doi = {10.48550/arXiv.2110.04366},
+archivePrefix = {arXiv},
+       eprint = {2110.04366},
+ primaryClass = {cs.CL},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2021arXiv211004366H},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{Ayupov2022ParameterEfficientFO,
+  title={Parameter-Efficient Finetuning of Transformers for Source Code},
+  author={Shamil Ayupov and Nadezhda Chirkova},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2212.05901}
+}
+
+@article{hui2024qwen,
+  title={Qwen2.5-Coder Technical Report},
+  author={Binyuan Hui and Jian Yang and Zeyu Cui and Jiaxi Yang and Dayiheng Liu and Lei Zhang and Tianyu Liu and Jiajun Zhang and Bowen Yu and Kai Dang and An Yang and Rui Men and Fei Huang and Shanghaoran Quan and Xingzhang Ren and Xuancheng Ren and Jingren Zhou and Junyang Lin},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2409.12186},
+  url={https://api.semanticscholar.org/CorpusID:272707390}
+}
+
+@misc{weyssow2024exploring,
+      title={Exploring Parameter-Efficient Fine-Tuning Techniques for Code Generation with Large Language Models}, 
+      author={Martin Weyssow and Xin Zhou and Kisub Kim and David Lo and Houari Sahraoui},
+      year={2024},
+      eprint={2308.10462},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+
+@misc{GoogleBigQuery,
+  author       = {Google Cloud},
+  title        = {From data warehouse to a unified, AI-ready data platform},
+  year         = 2024,
+  url          = {https://cloud.google.com/bigquery},
+  urldate = {2024-05-27},
+}
+
+@softwareversion{pitest:1.16.0,
+  author = {Henry Coles},
+  title = {Mutation testing system for Java},
+  url = {https://pitest.org/},
+  version = {1.16.0},
+  date = {2024-04-08}
+}
+
+@article{Liu2022FewShotPF,
+  title={Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning},
+  author={Haokun Liu and Derek Tam and Mohammed Muqeeth and Jay Mohta and Tenghao Huang and Mohit Bansal and Colin Raffel},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2205.05638}
+}
+
+@misc{antlr4,
+  author  = {Terence Parr},
+  title   = {ANTLR 4},
+  url     = {https://www.antlr.org},
+  version = {4.10.1},
+  urldate = {2024-06-01},
+  year    = {2022}
+}
+
+@misc{sjalander2019epic,
+  title = {{EPIC}: An Energy-Efficient, High-Performance {GPGPU} Computing Research Infrastructure},
+  author = {Magnus Sj\"alander and Magnus Jahre and Gunnar Tufte and Nico Reissmann},
+  year = 2019,
+  eprint = {1912.05848},
+  archivePrefix ={arXiv},
+  primaryClass = {cs.DC}
+}
+
+@inproceedings{wolf-etal-2020-transformers,
+    title = "Transformers: State-of-the-Art Natural Language Processing",
+    author = "Thomas Wolf and Lysandre Debut and Victor Sanh and Julien Chaumond and Clement Delangue and Anthony Moi and Pierric Cistac and Tim Rault and Rémi Louf and Morgan Funtowicz and Joe Davison and Sam Shleifer and Patrick von Platen and Clara Ma and Yacine Jernite and Julien Plu and Canwen Xu and Teven Le Scao and Sylvain Gugger and Mariama Drame and Quentin Lhoest and Alexander M. Rush",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = oct,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-demos.6",
+    pages = "38--45"
+}
+
+@misc{lewis2019bart,
+      title={BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension}, 
+      author={Mike Lewis and Yinhan Liu and Naman Goyal and Marjan Ghazvininejad and Abdelrahman Mohamed and Omer Levy and Ves Stoyanov and Luke Zettlemoyer},
+      year={2019},
+      eprint={1910.13461},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@ARTICLE{jia2011an,
+  author={Jia, Yue and Harman, Mark},
+  journal={IEEE Transactions on Software Engineering}, 
+  title={An Analysis and Survey of the Development of Mutation Testing}, 
+  year={2011},
+  volume={37},
+  number={5},
+  pages={649-678},
+  keywords={Genetic mutations;Software testing;Fault detection;History;Books;Programming profession;Computer languages;Java;Educational institutions;Automata;Mutation testing;survey.},
+  doi={10.1109/TSE.2010.62}
+}
+
+@article{Ren2020CodeBLEUAM,
+  title={CodeBLEU: a Method for Automatic Evaluation of Code Synthesis},
+  author={Shuo Ren and Daya Guo and Shuai Lu and Long Zhou and Shujie Liu and Duyu Tang and M. Zhou and Ambrosio Blanco and Shuai Ma},
+  journal={ArXiv},
+  year={2020},
+  volume={abs/2009.10297}
+}
+
+@article{li2023starcoder,
+      title={StarCoder: may the source be with you!}, 
+      author={Raymond Li and Loubna Ben Allal and Yangtian Zi and Niklas Muennighoff and Denis Kocetkov and Chenghao Mou and Marc Marone and Christopher Akiki and Jia Li and Jenny Chim and Qian Liu and Evgenii Zheltonozhskii and Terry Yue Zhuo and Thomas Wang and Olivier Dehaene and Mishig Davaadorj and Joel Lamy-Poirier and João Monteiro and Oleh Shliazhko and Nicolas Gontier and Nicholas Meade and Armel Zebaze and Ming-Ho Yee and Logesh Kumar Umapathi and Jian Zhu and Benjamin Lipkin and Muhtasham Oblokulov and Zhiruo Wang and Rudra Murthy and Jason Stillerman and Siva Sankalp Patel and Dmitry Abulkhanov and Marco Zocca and Manan Dey and Zhihan Zhang and Nour Fahmy and Urvashi Bhattacharyya and Wenhao Yu and Swayam Singh and Sasha Luccioni and Paulo Villegas and Maxim Kunakov and Fedor Zhdanov and Manuel Romero and Tony Lee and Nadav Timor and Jennifer Ding and Claire Schlesinger and Hailey Schoelkopf and Jan Ebert and Tri Dao and Mayank Mishra and Alex Gu and Jennifer Robinson and Carolyn Jane Anderson and Brendan Dolan-Gavitt and Danish Contractor and Siva Reddy and Daniel Fried and Dzmitry Bahdanau and Yacine Jernite and Carlos Muñoz Ferrandis and Sean Hughes and Thomas Wolf and Arjun Guha and Leandro von Werra and Harm de Vries},
+      year={2023},
+      eprint={2305.06161},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@inproceedings{Goel2022OnTC,
+    author = {Goel, Divyam and Grover, Ramansh and Fard, Fatemeh H.},
+    title = {On the cross-modal transfer from natural language to code through adapter modules},
+    year = {2022},
+    isbn = {9781450392983},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3524610.3527892},
+    doi = {10.1145/3524610.3527892},
+    booktitle = {Proceedings of the 30th IEEE/ACM International Conference on Program Comprehension},
+    pages = {71–81},
+    numpages = {11},
+    keywords = {adapters, parameter efficient models, pre-trained language models, transfer learning},
+    location = {Virtual Event},
+    series = {ICPC '22}
+}
+
+@inproceedings{BenZaken2021BitFitSP,
+    title = "{B}it{F}it: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models",
+    author = "Ben Zaken, Elad  and
+      Goldberg, Yoav  and
+      Ravfogel, Shauli",
+    editor = "Muresan, Smaranda  and
+      Nakov, Preslav  and
+      Villavicencio, Aline",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-short.1",
+    doi = "10.18653/v1/2022.acl-short.1",
+    pages = "1--9"
+}
+
+@article{Ren2021ZeROOffloadDB,
+  title={ZeRO-Offload: Democratizing Billion-Scale Model Training},
+  author={Jie Ren and Samyam Rajbhandari and Reza Yazdani Aminabadi and Olatunji Ruwase and Shuangyang Yang and Minjia Zhang and Dong Li and Yuxiong He},
+  journal={ArXiv},
+  year={2021},
+  volume={abs/2101.06840}
+}
+
+
