@@ -1,0 +1,99 @@
+%\newgeometry{margin=2.5cm, top=20mm, bottom=35mm}
+\definecolor{foobarblue}{RGB}{0,153,255}
+
+\newganttchartelement{mainbar}{
+    mainbar/.style={
+        draw=foobarblue!10!black,
+        fill=foobarblue!10
+    },
+    mainbar label font=\bfseries
+}
+
+\newganttlinktype{f-m}{
+ \ganttsetstartanchor{on right=1}
+ \ganttsetendanchor{on left=0}
+ \draw[/pgfgantt/link]
+  ([xshift=-.2pt]\xLeft, \yUpper) -- 
+  (\xRight, \yLower);
+}
+
+\hspace{-2cm}
+\noindent
+\begin{ganttchart}[
+    progress=today,
+    today=25,
+    today label=August,
+    hgrid,
+    vgrid={*{2}{draw=none},{dotted}},
+    vrule label font=\tiny,         
+    title label font=\tiny,
+    %bar label font=\tiny,
+    %milestone label font=\tiny,
+    %group label font=\bfseries\small,
+    bar height = 0.4,
+    %milestone left shift =-1,
+    %milestone right shift =1,
+    x unit=0.325cm,
+    y unit title=.6cm,
+    %y unit chart=0.85cm,
+    y unit chart=0.7cm,
+    link bulge = 2,
+    bar label node/.append style={align=left},
+    link/.style={-latex, draw=red, fill=red, thick}
+    ]{1}{42}
+    %labels
+    \gantttitle[]{2022}{6}                 % title 2
+    \gantttitle[]{2023}{12}
+    \gantttitle[]{2024}{12}
+    \gantttitle[]{2025}{12}\\
+    \gantttitlelist{"Q3","Q4"}{3}
+    \gantttitlelist{"Q1","Q2","Q3","Q4"}{3}
+    \gantttitlelist{"Q1","Q2","Q3","Q4"}{3}
+    \gantttitlelist{"Q1","Q2","Q3","Q4"}{3}\\
+    %tasks
+    \ganttgroup{Organised academic training}{2}{30} \\
+    \ganttbar{Corse IDT8000}{2}{6} \\
+    \ganttbar{Corse IDT80002}{2}{6} \\
+    \ganttbar{Corse DT8111}{7}{12} \\
+    \ganttbar{Corse DT8806}{7}{12} \\
+    \ganttbar{FYS-8805 (Winter school)}{7}{7} \\
+    \ganttbar{Corse DT8114}{25}{30} \\
+    
+    \ganttgroup{Research}{2}{34} \\
+    \ganttset{ bar/.append style={fill=yellow}, bar incomplete/.append style={fill=yellow!10}}%
+    \ganttbar[name=RQ1]{RQ1}{2}{12} \\
+    \ganttmilestone[name=M1]{Paper to ISSRE 2023}{12} \\
+    \ganttset{ bar/.append style={fill=red}, bar incomplete/.append style={fill=red!10}}%
+    \ganttbar[name=RQ2]{RQ2}{13}{24} \\
+    \ganttmilestone[name=M2]{Paper to ASE 2024}{24} \\
+    %\ganttbar[name=RQ3]{RQ3}{24}{25} \\%6+12+7 /juni
+    \ganttset{ bar/.append style={fill=blue}, bar incomplete/.append style={fill=blue!10}}%
+    \ganttbar[name=RQ31]{RQ3.1}{24}{26}\\ %6+12+7 /juni
+    \ganttmilestone[name=M31, milestone label node/.append style={align=right}]{Paper to ICSE 2025}{26}\\
+    \ganttbar[name=RQ32]{RQ3.2}{27}{28} \\
+    \ganttmilestone[name=M32, milestone label node/.append style={align=right}]{Paper to JSS 2025}{28}\\
+    \ganttbar[name=RQ33]{RQ3.3}{29}{34} \\
+    \ganttmilestone[name=M33, milestone label node/.append style={align=right}]{Paper to TSE 2025}{34}\\
+    %\ganttmilestone{}{29}
+    %\ganttmilestone{}{25}\\
+    \ganttgroup[group label node/.append style={align=right}]{Exchange to CSIRO's Data61}{27}{32}\\
+    \ganttset{ bar/.append style={fill=black}, bar incomplete/.append style={fill=black!50}}%
+    \ganttbar[name=RQ4]{RQ4}{27}{32} \\
+    \ganttmilestone[name=M4]{Paper to ?}{32} \\
+    \ganttbar[name=T1]{\textbf{Thesis writing}}{35}{39} \\
+    \ganttmilestone[name=W1, milestone label node/.append style={align=right}]{Deliver thesis}{39}
+    % 
+    \ganttlink[link type=f-m]{RQ1}{M1}
+    \ganttlink[link type=f-m]{RQ2}{M2}
+    \ganttlink[link type=f-m]{RQ31}{M31}
+    \ganttlink[link type=f-m]{M31}{RQ32}
+    \ganttlink[link type=f-m]{RQ32}{M32}
+    \ganttlink[link type=f-m]{M32}{RQ33}
+    \ganttlink[link type=f-m]{RQ33}{M33}
+    \ganttlink[link type=f-m]{RQ4}{M4}
+    \ganttlink[link type=f-m]{T1}{W1}
+    %\ganttlink{RQ2}{RQ3}
+    %\ganttlink{RQ3}{RQ4}
+    %\ganttlink{RQ4}{W1}
+\end{ganttchart}
+%\restoregeometry
